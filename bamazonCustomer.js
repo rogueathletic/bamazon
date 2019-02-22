@@ -1,12 +1,12 @@
-var mysql = require("mysql");
+var mysql = require("./keys");
 var inquirer = require("inquirer");
-const cTable = require('console.table');
+const Table = require('console.table');
 
 var connection = mysql.createConnection({
     host: "localhost",
     port: 3306,
     user: "root",
-    password: "******",
+    password: "./keys",
     database: "bamazon"
 });
 
