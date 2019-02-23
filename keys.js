@@ -1,3 +1,6 @@
-exports.spotify={
-    id:process.env.mySQL_pw,
+exports.bamazon={
+    id:process.env.root,
     };
+
+
+ 

@@ -1,10 +1,10 @@
--- MySQL information to create DB and Table
+-- <----- MySQL information to create DB and Table J.SCHUTZ
 DROP DATABASE IF EXISTS bamazon;
-
+-- <----- replaces this file to mysql if it was dropped. if it was not dropped it will be used to create it J.SCHUTZ
 CREATE DATABASE bamazon;
-
+-- <----- declares we want to use this file to populate the file declared aboves content J.SCHUTZ
 USE bamazon;
-
+-- <----- this is the master list of column titles and how they require their own specific formatting J.SCHUTZ
 CREATE TABLE Products (
     id INT NOT NULL AUTO_INCREMENT,
     productName VARCHAR (45) NOT NULL,
@@ -14,7 +14,12 @@ CREATE TABLE Products (
     PRIMARY KEY (ID)
 );
 
--- Data used to populate tables
+-- <----- varchar is charactors and numbers as a word J.SCHUTZ
+-- <----- int is intiger or number vlaue  J.SCHUTZ
+-- <----- not null means it can not be empty J.SCHUTZ
+-- <----- the numbers in parenthesies is the most amount of charactors that can be entered for the column value J.SCHUTZ
+
+-- <----- Below you will see the info assigned to their coresponding table headers via .csv formatting J.SCHUTZ
 INSERT INTO Products (ID, productName, departmentName, price, stockQuantity)
 VALUES ('001', 'Bianchi Specialisima', 'Bikes', 4999.00, 5);
 INSERT INTO Products (ID, productName, departmentName, price, stockQuantity)
