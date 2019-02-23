@@ -1,23 +1,23 @@
-var mysql = require("./keys");
-var inquirer = require("inquirer");
-const Table = require('console.table');
+const mysql = require('mysql');
+const inquirer = require('inquirer');
+require('console.table');
 
 var connection = mysql.createConnection({
     host: "localhost",
     port: 3306,
     user: "root",
-    password: "./keys",
+    password: "hMw8EgmunkRDyTFMMb7]f96Nkei6Fsx",
     database: "bamazon"
 });
-
+//if error say error
 connection.connect(function(err) {
     if (err) throw err;
     availableProducts();
 });
-
+//show available products
 function availableProducts() {
-    console.log("\nFoot Locker Merchandise: \n");
-    connection.query("SELECT item_id, product_name, price FROM products", function(err, results) {
+    console.log("\nBike Shop Merchandise: \n");
+    connection.query("SELECT id, productName, price FROM products", function(err, results) {
         if (err) throw err;
         console.table(results);
         startShopping();
@@ -37,19 +37,20 @@ function startShopping() {
             message: "Please enter the # of items you wish to buy:"
         }
     ]).then(function(answer) {
-        connection.query("SELECT item_id, product_name, stock_quantity, price FROM products WHERE ?", { item_id: answer.itemID }, function(err, results) {
+        connection.query("SELECT id, productName, departmentName, price FROM products WHERE ?", { id: answer.itemID }, function(err, results) {
             if (err) throw err;
-            if (results[0].stock_quantity >= answer.quantity) {
-                var itemsRemaining = results[0].stock_quantity - answer.quantity;
-                var purchaseTotal = answer.quantity * results[0].price;
-                connection.query(`UPDATE products SET stock_quantity=${itemsRemaining} WHERE item_id=${answer.itemID}`, function(err, results) {
+            if (results[0].stockQuantity >= answer.quantity) {
+                var itemsRemaining = results[0].stockQuantity - answer.quantity;
+                // var purchaseTotal = answer.quantity * results[0].price;
+                var purchaseTotal = answer.quantity * results[3];
+                connection.query(`UPDATE products SET stockQuantity=${itemsRemaining} WHERE id=${answer.itemID}`, function(err, results) {
                     if (err) throw err;
                     console.log(`Your total is: ${purchaseTotal}`);
                     continueShopping();
                 });
             } 
             else {
-                console.log("Unfortunatly at this time we are otu of stock. Please check back later.");
+                console.log("Unfortunatly at this time we are out of stock. Please check back later.");
                 continueShopping();
             }
         });
