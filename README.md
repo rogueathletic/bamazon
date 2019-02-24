@@ -1,6 +1,7 @@
 
-
+<p align="center">
 <img src="https://i.imgur.com/vVwCra2.png" alt="Trulli" width="50%" height="auto" margin-left="20%">
+</p>
 
 <br><br><br>
 
