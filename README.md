@@ -1,12 +1,10 @@
 MySQL information to create DB and Table
 
-```DROP DATABASE IF EXISTS bamazon;
-```
+```DROP DATABASE IF EXISTS bamazon;```
 
 replaces file in mysql if it was present. if it was not dropped it will be used to create it
 
-```CREATE DATABASE bamazon;
-```
+```CREATE DATABASE bamazon;```
 declares we want to use this file to populate the file declared aboves content
 
 ```USE bamazon;
