@@ -5,10 +5,12 @@ MySQL information to create DB and Table
 replaces file in mysql if it was present. if it was not dropped it will be used to create it
 
 ```CREATE DATABASE bamazon;```
+
 declares we want to use this file to populate the file declared aboves content
 
-```USE bamazon;
-```
+
+```USE bamazon;```
+
 this is the master list of column titles and how they require their own specific formatting
 
 ```CREATE TABLE Products (
