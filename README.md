@@ -1,3 +1,10 @@
+
+![Bamazon Logo](https://i.imgur.com/ECEtBr9.png)
+Format: ![Bamazon brand logo](url)
+
+
+
+
 MySQL information to create DB and Table
 
 ```DROP DATABASE IF EXISTS bamazon;```
