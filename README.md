@@ -1,6 +1,6 @@
 
-<br><br><br><br><br><br>
-<img src="https://i.imgur.com/vVwCra2.png" alt="Trulli" width="100%" height="auto">
+
+<img src="https://i.imgur.com/vVwCra2.png" alt="Trulli" width="100%" height="auto" margin="0">
 
 <br><br><br>
 
