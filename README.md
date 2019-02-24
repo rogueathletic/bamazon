@@ -1,10 +1,18 @@
 MySQL information to create DB and Table
-```DROP DATABASE IF EXISTS bamazon;```
+
+```DROP DATABASE IF EXISTS bamazon;
+```
+
 replaces file in mysql if it was present. if it was not dropped it will be used to create it
-```CREATE DATABASE bamazon;```
+
+```CREATE DATABASE bamazon;
+```
 declares we want to use this file to populate the file declared aboves content
-```USE bamazon;```
+
+```USE bamazon;
+```
 this is the master list of column titles and how they require their own specific formatting
+
 ```CREATE TABLE Products (
     id INT NOT NULL AUTO_INCREMENT,
     productName VARCHAR (45) NOT NULL,
@@ -12,7 +20,8 @@ this is the master list of column titles and how they require their own specific
     price DECIMAL (10,2) NOT NULL,
     stockQuantity INT (10) NOT NULL,
     PRIMARY KEY (ID)
-);```
+);
+```
 
 varchar characters and numbers as a word
 int is intiger or number vlaue 
@@ -47,5 +56,6 @@ VALUES ('012', 'Speed Sleeve', 'Apparel', 100.00, 15);
 INSERT INTO Products (ID, productName, departmentName, price, stockQuantity)
 VALUES ('013', 'SRM PC8', 'Apparel', 120.00, 12);
 INSERT INTO Products (ID, productName, departmentName, price, stockQuantity)
-VALUES ('014', 'Specialized 1.5 knee warmers', 'Accessories', 20.00, 12);```
+VALUES ('014', 'Specialized 1.5 knee warmers', 'Accessories', 20.00, 12);
+```
 
