@@ -1,6 +1,6 @@
 
 ![Bamazon Logo](https://i.imgur.com/ECEtBr9.png)
-Format: ![Bamazon brand logo](url)
+Format: ![Bamazon brand logo](https://i.imgur.com/ECEtBr9.png)
 
 
 
