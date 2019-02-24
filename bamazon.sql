@@ -1,6 +1,6 @@
 -- <----- MySQL information to create DB and Table J.SCHUTZ
 DROP DATABASE IF EXISTS bamazon;
--- <----- replaces this file to mysql if it was dropped. if it was not dropped it will be used to create it J.SCHUTZ
+-- <----- replaces file in mysql if it was present. if it was not dropped it will be used to create it J.SCHUTZ
 CREATE DATABASE bamazon;
 -- <----- declares we want to use this file to populate the file declared aboves content J.SCHUTZ
 USE bamazon;
