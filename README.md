@@ -1,8 +1,8 @@
 
-Format: ![Bamazon brand logo](https://i.imgur.com/ECEtBr9.png)
+<br><br><br><br><br><br>
+<img src="https://i.imgur.com/vVwCra2.png" alt="Trulli" width="100%" height="auto">
 
-
-
+<br><br><br>
 
 MySQL information to create DB and Table
 
