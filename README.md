@@ -12,7 +12,7 @@
 
 </div>
 <p align="center">
-<img src="https://i.imgur.com/vVwCra2.png" alt="Trulli" width="50%" height="auto" margin-left="20%">
+<img src="https://i.imgur.com/vVwCra2.png" alt="Trulli" width="50%" height="auto" margin-left="20%" alt="unlicensed bootleg art using toe Amazon logo as base with user input art to illustrate visual catchall of app">
 </p>
 
 <br><br><br>
