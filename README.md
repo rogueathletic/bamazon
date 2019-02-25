@@ -17,7 +17,7 @@
 </p>
 
 <br>
-<p align="justify">
+<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;
 Utilizing a multitude of functions, formulas and coding languages, the project here was to create a fully functional and usable storefront form. The programs functionality is to be executed within terminal. For this challenge we were presented with a new coding type as we have been each week for just over three months. We were tasked to create our first MySQL database within the MYSQL Woorkbench program that will talk with the javascript we wrote in <a href="https://bit.ly/2VfZi2H">Visual Studion Code</a> to execute compounding sales and extrapulate working invintory for the items we have created for our store. I chose to make a Bike Shop for this project. 
 <br>
     In the effort for absolute transparency I have broken down each code segment and or function down to their core use. I feel this allows you the reader to better understand the flow of the completed project. The menu above should allow for ease of use moving quickly to specific segments of this readme.md document.
@@ -89,7 +89,7 @@ Utilizing a multitude of functions, formulas and coding languages, the project h
 </ul>
 </ul>
 <br>
-<p>***The legnth of the list above should be noted that the vast majority of these node programs are strict dependancies of the primary ones used. It is good to understand that when you bring one npm packet into your root files or directly into your project it is called a packet for the reason above. There are many working parts to these programd and knowing that even though a few of these programs are one - two lines they provide a systaining component to allow all of the pther systems to work well and in a mannor we expect with the speed of the internet today.***</p>
+<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;***The legnth of the list above should be noted that the vast majority of these node programs are strict dependancies of the primary ones used. It is good to understand that when you bring one npm packet into your root files or directly into your project it is called a packet for the reason above. There are many working parts to these programd and knowing that even though a few of these programs are one - two lines they provide a systaining component to allow all of the pther systems to work well and in a mannor we expect with the speed of the internet today.***</p>
 <br>
 <hr>
 <br>    
@@ -117,13 +117,15 @@ this is the master list of column titles and how they require their own specific
     PRIMARY KEY (ID)
 );
 ```
-
+<p>
 varchar characters and numbers as a word
 int is intiger or number vlaue 
 not null means it can not be empty
 the numbers in parentheses is the most amount of characters that can be entered for the column value
-
+</p>
+<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;
 Below you will see the info assigned to the corresponding table headers via .csv formatting. This for most users will emulate the funcitons of Microsoft Excell or more appropriatly Microsoft Acess. This ebing that Excel is in its root value a table builder where access much like My Sql is a platform you can view, review and build tables but its true function is extrapulating data from the sheet and making functional charts and forms out of the information provided. to provide a refference of the code below, I have added a tabled form after it to show the symilarities of the two files in how they look.
+</p>
 
 ```INSERT INTO Products (ID, productName, departmentName, price, stockQuantity)
 VALUES ('001', 'Bianchi Specialisima', 'Bikes', 4999.00, 5);
