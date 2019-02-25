@@ -273,18 +273,15 @@ Where the code above is formatted in a way for e to bulk upload. The table below
 </table>
 </details>
 <br>
-<details>
-<summary><h1 id="javascript">Javascript</h1></summary>
+<details> <summary><h1 id="javascript">Javascript</h1></summary>
 
 </details>
 <br>
-<details>
-<summary><h1 id="Demo">Demo</h1></summary>
+<details> <summary><h1 id="Demo">Demo</h1></summary>
 
 </details>
 <br>
-<details>
-<summary><h1 id="set-up">Set Up</h1></summary>
+<details> <summary><h1 id="set-up">Set Up</h1></summary>
 
 </details>
 <br>
