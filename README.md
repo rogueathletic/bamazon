@@ -119,7 +119,8 @@ declares we want to use this file to populate the file declared aboves content
 
 this is the master list of column titles and how they require their own specific formatting
 
-```CREATE TABLE Products (
+```&nbsp;
+CREATE TABLE Products (
 id INT NOT NULL AUTO_INCREMENT,
 productName VARCHAR (45) NOT NULL,
 departmentName VARCHAR (45) NOT NULL,
@@ -286,7 +287,8 @@ Where the code above is formatted in a way for e to bulk upload. The table below
 <p align="justify">&nbsp;&nbsp;&nbsp;The three Required statements below depect the three primary packets that I have required for this app to function. the only time full instilation is required is when the program is being created. From there; you, the end user can simply (if you already have node installed globally on your computer> Can simply run "npm install" from Terminal or Bash to bring all of the needed code structures to execute the program</p>
 
 
-```const mysql = require('mysql'); 
+```&nbsp;
+const mysql = require('mysql'); 
 const inquirer = require('inquirer');
 require('console.table');
 var keys = require("./keys");
@@ -294,7 +296,8 @@ var keys = require("./keys");
 
 <p align="justify">&nbsp;&nbsp;&nbsp;Once you have installed your packet dependancies your next step will be to define your connection to MYSQL. <br>*This connection WILL require you to have a root password as it is using your computer is a local server for the project. To obtain your root password for your review or attempt of this project you can find it <a href="https://apple.co/2Bu62kh">here</a> for mac. Once you have your password in hand yo will <b>NOT</b> want to store this within the project file for the app. This is considered incredibly sensitive information and should only be stored on your computer. To refrain from putting your code out in a vonerable state, you will want to create a <a href="https://bit.ly/2ssAXN3">DOTENV</a> file to store this information as well as a .gitignore to make sure when you set your commits it is not transfered to your repositories.</p>
 
-```var connection = mysql.createConnection({
+```&nbsp;
+var connection = mysql.createConnection({
     host: "localhost",
     port: 3306,
     user: "root",
@@ -316,7 +319,8 @@ connection.connect(function (err) {
 
 
 
-```function availableProducts() {
+```&nbsp;
+function availableProducts() {
     console.log("\nBike Shop Merchandise: \n");
     connection.query("SELECT id, productName, price FROM products", function (err, results) {
         if (err) throw err;
@@ -330,7 +334,8 @@ connection.connect(function (err) {
 
 
 
-```function startShopping() {
+```&nbsp;
+function startShopping() {
     inquirer.prompt([{
             name: "itemID",
             type: "input",
