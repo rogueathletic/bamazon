@@ -10,14 +10,14 @@ Utilizing a multitude of functions, formulas and coding languages, the project h
 <h1>Programs/node apps used to complete this application</h1>
 <br>
 <ul>
-<li><a href="https://bit.ly/2GZTqXu"><h2>My SQL Workbench</h2></a></li>
-<li><a href="https://bit.ly/2EcEJNN"><h2>HTML</h2></a></li>
-<li><a href="https://bit.ly/2TcFS1k"><h2>CSS</h2></a></li>
-<li><a href="https://bit.ly/1cYzv8q"><h2>Javascript</h2></a></li>
-<li><a href="https://bit.ly/1AOYl0q"><h2>Jquery</h2></a></li>
-<li><a href="https://bit.ly/2wztb2m"><h2>bootstrap</h2></a></li>
+<li><a href="https://bit.ly/2GZTqXu">My SQL Workbench</a></li>
+<li><a href="https://bit.ly/2EcEJNN">HTML</a></li>
+<li><a href="https://bit.ly/2TcFS1k">CSS</a></li>
+<li><a href="https://bit.ly/1cYzv8q">Javascript</a></li>
+<li><a href="https://bit.ly/1AOYl0q">Jquery</a></li>
+<li><a href="https://bit.ly/2wztb2m">bootstrap</a></li>
 <ul>
-    <li><a href="https://bit.ly/1LjG5AH"><h2>Node</h2></a></li>
+    <li><a href="https://bit.ly/1LjG5AH">Node</a></li>
     <ul>
         <li><a href="https://bit.ly/2ssAXN3">dotenv</a></li>
         <li><a href="https://bit.ly/2kh3jU4">Json</a></li>
