@@ -36,7 +36,8 @@ int is intiger or number vlaue
 not null means it can not be empty
 the numbers in parentheses is the most amount of characters that can be entered for the column value
 
-Below you will see the info assigned to their corresponding table headers via .csv formatting
+Below you will see the info assigned to the corresponding table headers via .csv formatting. This for most users will emulate the funcitons of Microsoft Excell or more appropriatly Microsoft Acess. This ebing that Excel is in its root value a table builder where access much like My Sql is a platform you can view, review and build tables but its true function is extrapulating data from the sheet and making functional charts and forms out of the information provided. to provide a refference of the code below, I have added a tabled form after it to show the symilarities of the two files in how they look.
+
 ```INSERT INTO Products (ID, productName, departmentName, price, stockQuantity)
 VALUES ('001', 'Bianchi Specialisima', 'Bikes', 4999.00, 5);
 INSERT INTO Products (ID, productName, departmentName, price, stockQuantity)
@@ -66,4 +67,112 @@ VALUES ('013', 'SRM PC8', 'Apparel', 120.00, 12);
 INSERT INTO Products (ID, productName, departmentName, price, stockQuantity)
 VALUES ('014', 'Specialized 1.5 knee warmers', 'Accessories', 20.00, 12);
 ```
-
+<table>
+<tbody>
+<tr>
+<td style="text-align: center;">ID</td>
+<td style="text-align: center;">Product Name</td>
+<td style="text-align: center;">departmentName</td>
+<td style="text-align: center;">price</td>
+<td style="text-align: center;">stockQuantity</td>
+</tr>
+<tr>
+<td style="text-align: center;">001</td>
+<td style="text-align: right;">Bianchi Specialisima</td>
+<td style="text-align: center;">Bikes</td>
+<td style="text-align: center;">4999.00</td>
+<td style="text-align: center;">5</td>
+</tr>
+<tr>
+<td style="text-align: center;">002</td>
+<td style="text-align: right;">Kask Protone | White</td>
+<td style="text-align: center;">Helmets</td>
+<td style="text-align: center;">375.00</td>
+<td style="text-align: center;">8</td>
+</tr>
+<tr>
+<td style="text-align: center;">003</td>
+<td style="text-align: right;">Fizik Arione</td>
+<td style="text-align: center;">Saddles</td>
+<td style="text-align: center;">20.00</td>
+<td style="text-align: center;">6</td>
+</tr>
+<tr>
+<td style="text-align: center;">004</td>
+<td style="text-align: right;">Assos</td>
+<td style="text-align: center;">Apparel</td>
+<td style="text-align: center;">360.00</td>
+<td style="text-align: center;">10</td>
+</tr>
+<tr>
+<td style="text-align: center;">005</td>
+<td style="text-align: right;">WYN bibs</td>
+<td style="text-align: center;">Apparel</td>
+<td style="text-align: center;">532.26</td>
+<td style="text-align: center;">6</td>
+</tr>
+<tr>
+<td style="text-align: center;">006</td>
+<td style="text-align: right;">Mavic Vest</td>
+<td style="text-align: center;">Accessories</td>
+<td style="text-align: center;">135.00</td>
+<td style="text-align: center;">10</td>
+</tr>
+<tr>
+<td style="text-align: center;">007</td>
+<td style="text-align: right;">Bont Vaypor +</td>
+<td style="text-align: center;">shoes</td>
+<td style="text-align: center;">710.00</td>
+<td style="text-align: center;">7</td>
+</tr>
+<tr>
+<td style="text-align: center;">008</td>
+<td style="text-align: right;">Oakley Radar EV</td>
+<td style="text-align: center;">Apparel</td>
+<td style="text-align: center;">225.00</td>
+<td style="text-align: center;">14</td>
+</tr>
+<tr>
+<td style="text-align: center;">009</td>
+<td style="text-align: right;">WYN Sleeves</td>
+<td style="text-align: center;">Apparel</td>
+<td style="text-align: center;">120.00</td>
+<td style="text-align: center;">10</td>
+</tr>
+<tr>
+<td style="text-align: center;">010</td>
+<td style="text-align: right;">Giro Gloves</td>
+<td style="text-align: center;">Accessories</td>
+<td style="text-align: center;">25.00</td>
+<td style="text-align: center;">12</td>
+</tr>
+<tr>
+<td style="text-align: center;">011</td>
+<td style="text-align: right;">Beats by Dre Headphones</td>
+<td style="text-align: center;">Shoes</td>
+<td style="text-align: center;">130.00</td>
+<td style="text-align: center;">18</td>
+</tr>
+<tr>
+<td style="text-align: center;">012</td>
+<td style="text-align: right;">Speed Sleeve</td>
+<td style="text-align: center;">Apparel</td>
+<td style="text-align: center;">100.00</td>
+<td style="text-align: center;">15</td>
+</tr>
+<tr>
+<td style="text-align: center;">013</td>
+<td style="text-align: right;">SRM PC8</td>
+<td style="text-align: center;">Apparel</td>
+<td style="text-align: center;">120.0.</td>
+<td style="text-align: center;">12</td>
+</tr>
+<tr>
+<td style="text-align: center;">014</td>
+<td style="text-align: right;">SpeacializedKnee Warmers 1.5</td>
+<td style="text-align: center;">Accessories</td>
+<td style="text-align: center;">20.00</td>
+<td style="text-align: center;">12</td>
+</tr>
+</tbody>
+</table>
