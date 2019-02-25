@@ -19,7 +19,7 @@
 
 Utilizing a multitude of functions, formulas and coding languages, the project here was to create a fully functional and usable storefront form thats functionality is to be executed within terminal. 
 <hr>
-<h2 align="center">used to complete this application<br>Languages, <a href="https://bit.ly/2U4VW2o" target="_blank">node apps</a> & <a href="http://bit.ly/2U7qnVs">node dependancies</a></h2>
+<h2 align="center">used to complete this application<br><a href="https://bit.ly/2IC3Sa1">Languages</a>, <a href="https://bit.ly/2U4VW2o" target="_blank">node apps</a> & <a href="https://bit.ly/2U7qnVs">node dependancies</a></h2>
 <br>
 <ul>
 <li><a href="https://bit.ly/2GZTqXu" target="_blank" alt="link to subsequent node dependancie, node app or code code">My SQL Workbench</a></li>
@@ -67,17 +67,17 @@ Utilizing a multitude of functions, formulas and coding languages, the project h
         <li><a href="https://bit.ly/2GHsTyJ" target="_blank" alt="link to subsequent node dependancie, node app or code code">restore-cursor</a></li>
         <li><a href="https://bit.ly/2Iyoyzy" target="_blank" alt="link to subsequent node dependancie, node app or code code">run-async</a></li>
         <li><a href="https://bit.ly/2IvRatd" target="_blank" alt="link to subsequent node dependancie, node app or code code">rxjs</a></li>
-        <li><a href="http://bit.ly/safe-buf" target="_blank" alt="link to subsequent node dependancie, node app or code code">safe-buffer</a></li>
-        <li><a href="http://bit.ly/2EtRlkK" target="_blank" alt="link to subsequent node dependancie, node app or code code">signal-exit</a></li>
-        <li><a href="http://bit.ly/2XipSu1" target="_blank" alt="link to subsequent node dependancie, node app or code code">sqlstring</a></li>
-        <li><a href="http://bit.ly/2NtvrAZ" target="_blank" alt="link to subsequent node dependancie, node app or code code">string-width</a></li>
-        <li><a href="http://bit.ly/2H0r1Az" target="_blank" alt="link to subsequent node dependancie, node app or code code">string_decoder</a></li>
-        <li><a href="http://bit.ly/2EuZt4z" target="_blank" alt="link to subsequent node dependancie, node app or code code">strip-ansi</a></li>
-        <li><a href="http://bit.ly/2ViR364" target="_blank" alt="link to subsequent node dependancie, node app or code code">supports-color</a></li>
-        <li><a href="http://bit.ly/2NsmWGm" target="_blank" alt="link to subsequent node dependancie, node app or code code">symbol-observable</a></li>
-        <li><a href="http://bit.ly/2tBY8mo" target="_blank" alt="link to subsequent node dependancie, node app or code code">through</a></li>
-        <li><a href="http://bit.ly/2tALS5B" target="_blank" alt="link to subsequent node dependancie, node app or code code">util-deprecate</a></li>
-        <li><a href="http://bit.ly/2NrS4pE" target="_blank" alt="link to subsequent node dependancie, node app or code code">wcwidth</a></li>
+        <li><a href="https://bit.ly/safe-buf" target="_blank" alt="link to subsequent node dependancie, node app or code code">safe-buffer</a></li>
+        <li><a href="https://bit.ly/2EtRlkK" target="_blank" alt="link to subsequent node dependancie, node app or code code">signal-exit</a></li>
+        <li><a href="https://bit.ly/2XipSu1" target="_blank" alt="link to subsequent node dependancie, node app or code code">sqlstring</a></li>
+        <li><a href="https://bit.ly/2NtvrAZ" target="_blank" alt="link to subsequent node dependancie, node app or code code">string-width</a></li>
+        <li><a href="https://bit.ly/2H0r1Az" target="_blank" alt="link to subsequent node dependancie, node app or code code">string_decoder</a></li>
+        <li><a href="https://bit.ly/2EuZt4z" target="_blank" alt="link to subsequent node dependancie, node app or code code">strip-ansi</a></li>
+        <li><a href="https://bit.ly/2ViR364" target="_blank" alt="link to subsequent node dependancie, node app or code code">supports-color</a></li>
+        <li><a href="https://bit.ly/2NsmWGm" target="_blank" alt="link to subsequent node dependancie, node app or code code">symbol-observable</a></li>
+        <li><a href="https://bit.ly/2tBY8mo" target="_blank" alt="link to subsequent node dependancie, node app or code code">through</a></li>
+        <li><a href="https://bit.ly/2tALS5B" target="_blank" alt="link to subsequent node dependancie, node app or code code">util-deprecate</a></li>
+        <li><a href="https://bit.ly/2NrS4pE" target="_blank" alt="link to subsequent node dependancie, node app or code code">wcwidth</a></li>
     </ul>
 </ul>
 </ul>
