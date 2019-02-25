@@ -7,8 +7,7 @@
     <span><a href=".....">demo | </a></span>
     <span><a href="https://github.com/rogueathletic/bamazon" download>Download | </a></span>
     <span><a href=".....">Set up | </a></span>
-    <span><a href="....."> </a></span>
-    <span><a href="mailto:jason@skunkworksweb.io">contact | </a></span>
+    <span><a href="mailto:jason@skunkworksweb.io">contact</a></span>
 <br>
     <br>
 </div>
