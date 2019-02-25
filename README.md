@@ -407,7 +407,28 @@ function continueShopping() {
 </details>
 <br>
 <details> <summary><h1 id="set-up">Set Up</h1></summary>
-
+<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;If you are as stoked as I am to be able to run a program like this from raw coding then your ready to try it on your own. Please feel free to use this code as your road map to writing your own content. There are a few things you will need to execute this process. I have listed them below in a numbered list in order for you:
+    
+    <ol>
+  <li>you will need a code editor. <a href="https://bit.ly/2VfZi2H">Visual Studion Code</a> is what I use and it is free.</li>
+  <li>you will need to add <a href="https://bit.ly/2GZTqXu">MYSQL Workbench</a> also linked above</li>
+  <li><a href="https://bit.ly/2nFUiTV">W3 Schools</a> has been the best source of information to make sense of this process to this level I have found. If you find another source you like better thats perfectly fine</li>
+    <li>you will need to set up a password to utilize your <a href="https://apple.co/2Bu62kh">Root</a> functions to run your code on the command line</li>
+  <li>pier review is a fantastic tool when you get stuck and <a href="https://bit.ly/1x0885j">Stack Overflow</a> is a fantastic location for this</li>
+  
+</ol>
+ok... So you have written your code. All of your dependancies notied above have been requested and added within your file folder for the program, youre mysql Workbench is up and running and all you want in life is to run your script in the command line. what now?
+<ol start="6">
+  <li>you will need to figure out the primary location of your MYSQL database located on your hard drive.</li>
+  <li>now that you have located the file location you will also need to remark the location of your bamazon.sql file within your app. combine the two file type locations with the script below directly on your command line. replace the brackets as well as their content with the applicable absolute file locations. relative file locations will not work for htis process</li>
+  <li>$[mysql location] -u root -p < [bamazon.sql file location]</li>
+   <li>submit</li>
+    <li>If the file path was done correctly you will be presented with a request to input your root password and not your UI password. The steps to obtain this are listed in the link on item line #4</li>
+     <li>if you have set up your password correctly and typed it in correctly when you submit you will simply be returned to your primary command line script. this is hwo you know you have started your server. If the connection does not commit you wil receive an error notification. be mindful of the information in your error code as it will tell you what is wrong and sometimes how to repair the error.</li>
+     <li>At this point I am going to assume you have found your MYSQL root location, you have obtained your root password and you have run the needed script to enact your servier through your command line. Now you will need to run one more line of code from terminal on the command line and your app should primpt just as the one I created did.</li>
+     <li>$ node bamazonConsumer.js</li>
+     <li>hope it worked for you and you enjoyed reading my README.md</li>
+</ol>
 </details>
 <br>
 <details>
