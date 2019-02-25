@@ -370,7 +370,7 @@ function startShopping() {
             }
         });
     });
-};```
+};```&nbsp;
 
 
 ```&nbsp;
@@ -391,12 +391,10 @@ function continueShopping() {
         }
     });
 }
-```
+```&nbsp;
 
 
 </details>
-++++++++++++++++++++++++++++++++++
-++++++++++++++++++++++++++++++++++
 <br>
 <details> <summary><h1 id="Demo">Demo</h1></summary>
 
