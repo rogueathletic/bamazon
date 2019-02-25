@@ -313,10 +313,7 @@ connection.connect(function (err) {
     availableProducts();
 });
 ```
-
-
-
-
+<p align="justify">&nbsp;&nbsp;&nbsp;At this point we begin to import the Bike Shop invintory that is defined in the Schema located in MYSQL Workbency. For the purposes of this app, I have chosen to include both the csv content and the schema within a single file to provide easier readability for the program.</p>
 ```&nbsp;
 function availableProducts() {
     console.log("\nBike Shop Merchandise: \n");
