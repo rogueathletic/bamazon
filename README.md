@@ -20,7 +20,11 @@
 <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;
 Utilizing a multitude of functions, formulas and coding languages, the project here was to create a fully functional and usable storefront form. The programs functionality is to be executed within terminal. For this challenge we were presented with a new coding type as we have been each week for just over three months. We were tasked to create our first MySQL database within the MYSQL Woorkbench program that will talk with the javascript we wrote in <a href="https://bit.ly/2VfZi2H">Visual Studion Code</a> to execute compounding sales and extrapulate working invintory for the items we have created for our store. I chose to make a Bike Shop for this project. 
 <br>
-    In the effort for absolute transparency I have broken down each code segment and or function down to their core use. I feel this allows you the reader to better understand the flow of the completed project. The menu above should allow for ease of use moving quickly to specific segments of this readme.md document.
+    <br>
+    In the effort to provide project transparency and understanding I have broken down each code segment and or function down to their core use. I feel this allows you the reader to better understand the flow of the completed project. The menu above should allow for ease of use moving quickly to specific segments of this readme.md document.
+    <br>
+    <br>
+    <p align+"center"><em>Click on the coresponding aarows paired with each code topic to read more</em></p>
 </p>
 <hr>
 <details>
