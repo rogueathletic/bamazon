@@ -1,3 +1,5 @@
+<details>
+<summary align="center">M E N U</summary>
 <div class=container align="center">
     <span><a href=".....">App Desc. | </a></span>
     <span><a href=".....">Dependancies | </a></span>
@@ -8,6 +10,7 @@
     <span><a href="https://github.com/rogueathletic/bamazon" download>Download | </a></span>
     <span><a href=".....">Set up | </a></span>
     <span><a href="mailto:jason@skunkworksweb.io">contact</a></span>
+    </details>
 <br>
     <br>
 </div>
