@@ -370,8 +370,7 @@ function startShopping() {
             }
         });
     });
-};
-```
+};```
 
 
 ```function continueShopping() {
