@@ -23,6 +23,9 @@ Utilizing a multitude of functions, formulas and coding languages, the project h
     In the effort for absolute transparency I have broken down each code segment and or function down to their core use. I feel this allows you the reader to better understand the flow of the completed project. The menu above should allow for ease of use moving quickly to specific segments of this readme.md document.
 </p>
 <hr>
+<details>
+<summary>Node</summary>
+<hr>
 <h2 align="center">used to complete this application:<br>
         <a href="https://bit.ly/2IC3Sa1">Languages | </a>
         <a href="https://bit.ly/2U4VW2o" target="_blank"> node apps | </a>
@@ -88,6 +91,7 @@ Utilizing a multitude of functions, formulas and coding languages, the project h
     </ul>
 </ul>
 </ul>
+    </details>
 <br>
 <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;***The legnth of the list above should be noted that the vast majority of these node programs are strict dependancies of the primary ones used. It is good to understand that when you bring one npm packet into your root files or directly into your project it is called a packet for the reason above. There are many working parts to these programd and knowing that even though a few of these programs are one - two lines they provide a systaining component to allow all of the pther systems to work well and in a mannor we expect with the speed of the internet today.***</p>
 <br>
