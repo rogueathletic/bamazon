@@ -9,6 +9,7 @@ Utilizing a multitude of functions, formulas and coding languages, the project h
 <hr>
 <h1>Programs/node apps used to complete this application</h1>
 <br>
+<ul>
 <li><a href="https://bit.ly/2GZTqXu"><h2>My SQL Workbench</h2></a></li>
 <li><a href="https://bit.ly/2EcEJNN"><h2>HTML</h2></a></li>
 <li><a href="https://bit.ly/2TcFS1k"><h2>CSS</h2></a></li>
