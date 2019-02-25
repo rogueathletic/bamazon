@@ -373,7 +373,8 @@ function startShopping() {
 };```
 
 
-```function continueShopping() {
+```&nbsp;
+function continueShopping() {
     inquirer.prompt([{
         name: "tryAgain",
         type: "confirm",
