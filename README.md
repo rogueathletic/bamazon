@@ -279,9 +279,131 @@ Where the code above is formatted in a way for e to bulk upload. The table below
 </table>
 </details>
 <br>
+
++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++
 <details> <summary><h1 id="javascript">Javascript</h1></summary>
 
+
+
+```const mysql = require('mysql'); 
+const inquirer = require('inquirer');
+require('console.table');
+var keys = require("./keys");
+```
+
+
+
+```var connection = mysql.createConnection({
+    host: "localhost",
+    port: 3306,
+    user: "root",
+    password: "###################",
+    database: "bamazon"
+});
+```
+
+
+
+
+```connection.connect(function (err) {
+    if (err) throw err;
+    availableProducts();
+});
+```
+
+
+
+
+```function availableProducts() {
+    console.log("\nBike Shop Merchandise: \n");
+    connection.query("SELECT id, productName, price FROM products", function (err, results) {
+        if (err) throw err;
+        console.table(results);
+        startShopping();
+    });
+}
+```
+
+
+
+
+
+```function startShopping() {
+    inquirer.prompt([{
+            name: "itemID",
+            type: "input",
+            message: "Please enter the ID Number for the Item you wish to buy: "
+        },
+        {
+            name: "quantity",
+            type: "input",
+            message: "Please enter the # of items you wish to buy:"
+        }
+
+
+    ])
+    .then(function (answer) {
+        if (!(answer.itemID && answer.quantity)) {
+            continueShopping();
+            return;
+        }
+        ```
+
+        ```connection.query("SELECT * FROM products WHERE ?", {
+            id: answer.itemID
+        }, function (err, results) {
+            if (err) throw err;
+            if (results[0].stockQuantity >= answer.quantity) {
+                var itemsRemaining = results[0].stockQuantity - answer.quantity;
+                var purchaseTotal = answer.quantity * results[0].price;
+                connection.query(`UPDATE products SET stockQuantity=${itemsRemaining} WHERE id=${answer.itemID}`,
+```
+
+                ```function (err, results) {
+                        if (err) throw err;
+                        console.log(`Your total is: ${purchaseTotal}`);
+                        continueShopping();
+                    });
+                    } 
+            ```
+
+
+            ```else {
+                console.log("Unfortunatly at this time we are out of stock for the item you requested. Please check back later or contact our sales department to find out when the item will be back in stock.");
+                continueShopping();
+            }
+        });
+    });
+}
+```
+
+
+
+
+```function continueShopping() {
+    inquirer.prompt([{
+        name: "tryAgain",
+        type: "confirm",
+        message: "Would you like to continue ordering? or process your bill and exit? "
+    }]).then(function (answer) {
+        if (answer.tryAgain) {
+            availableProducts();
+        } else {
+            connection.query("SELECT * FROM products", function (err, results) {
+                if (err) throw err;
+                console.table(results);
+            });
+            console.log("Your session has ended.  Thank you for shopping Bike Shop");
+        }
+    });
+}
+```
+/* -----> ***** Many of the console.log files were formatted using ES6. This process used console.log just as it is in es5 but once within the parenthesies you will use backtick to contain all contents in the parenthesies where once you have completed your message copy you then use = and then you use $ with no space between the two symbols. Then you will want to use the curly brackets again with no symbols or spaces after the dollar sign. Inside the curly brackets is where the contents that need to be called should be placed. Once this info has been added you will close the console log with a ; at thee end as you normally would. Then move to the next line and continue your code.  ***** <----- J.SCHUTZ */
+
 </details>
+++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++
 <br>
 <details> <summary><h1 id="Demo">Demo</h1></summary>
 
@@ -293,7 +415,7 @@ Where the code above is formatted in a way for e to bulk upload. The table below
 <br>
 <details>
 <summary align="center">F O O T E R &nbsp; M E N U</summary>
-<div class=container align="center" background-color="green">
+<div class=container align="center">
     <span><a href=".....">App Desc. | </a></span>
     <span><a href="#node">Node | </a></span>
     <span><a href="#mysql">MySQL Code | </a></span>
