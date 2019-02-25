@@ -294,7 +294,7 @@ require('console.table');
 var keys = require("./keys");
 ```
 
-<p align="justify">&nbsp;&nbsp;&nbsp;Once you have installed your packet dependancies your next step will be to define your connection to MYSQL. <br>*This connection WILL require you to have a root password as it is using your computer is a local server for the project. To obtain your root password for your review or attempt of this project you can find it <a href="https://apple.co/2Bu62kh">here</a> for mac. Once you have your password in hand yo will <b>NOT</b> want to store this within the project file for the app. This is considered incredibly sensitive information and should only be stored on your computer. To refrain from putting your code out in a vonerable state, you will want to create a <a href="https://bit.ly/2ssAXN3">DOTENV</a> file to store this information as well as a .gitignore to make sure when you set your commits it is not transfered to your repositories.</p>
+<p align="justify">&nbsp;&nbsp;&nbsp;Once you have installed your packet dependancies your next step will be to define your connection to MYSQL. <br>*This connection WILL require you to have a root password as it is using your computer is a local server for the project. To obtain your root password for your review or attempt of this project you can find it <a href="https://apple.co/2Bu62kh">here</a> for mac. Once you have your password in hand you will <b>NOT</b> want to store this within the project file for the app. This is considered incredibly sensitive information and should only be stored on your computer. To refrain from putting your code out in a vonerable state, you will want to create a <a href="https://bit.ly/2ssAXN3">DOTENV</a> file to store this information as well as a .gitignore to make sure when you set your commits it is not transfered to your repositories.</p>
 
 ```&nbsp;
 var connection = mysql.createConnection({
@@ -305,9 +305,7 @@ var connection = mysql.createConnection({
     database: "bamazon"
 });
 ```
-
-
-
+<p align="justify">&nbsp;&nbsp;&nbsp;This is the point where connection is set to establish between your MYSQL server and your local computer. For the instance within this app both are located in the same space for practical application. You will note the if statement attached to the connection request. This will allert you via terminal there was an error establishing connectinn if there was an issue. If there was not an issue... The app will rin and the err notification will be disreagrded until it is needed if it is ever needed.</p>
 
 ```&nbsp;
 connection.connect(function (err) {
