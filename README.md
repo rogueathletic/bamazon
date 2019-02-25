@@ -7,65 +7,65 @@
 
 Utilizing a multitude of functions, formulas and coding languages, the project here was to create a fully functional and usable storefront form thats functionality is to be executed within terminal. 
 <hr>
-<h1>Programs/<a href="https://bit.ly/2U4VW2o">node apps</a>/node dependancies used to complete this application</h1>
+<h1>Programs/<a href="https://bit.ly/2U4VW2o" target="_blank">node apps</a>/<a href="http://bit.ly/2U7qnVs">node dependancies</a> used to complete this application</h1>
 <br>
 <ul>
-<li><a href="https://bit.ly/2GZTqXu">My SQL Workbench</a></li>
-<li><a href="https://bit.ly/2EcEJNN">HTML</a></li>
-<li><a href="https://bit.ly/2TcFS1k">CSS</a></li>
-<li><a href="https://bit.ly/1cYzv8q">Javascript</a></li>
-<li><a href="https://bit.ly/1AOYl0q">Jquery</a></li>
-<li><a href="https://bit.ly/2wztb2m">bootstrap</a></li>
+<li><a href="https://bit.ly/2GZTqXu" target="_blank" alt="link to subsequent node dependancie, node app or code code">My SQL Workbench</a></li>
+<li><a href="https://bit.ly/2EcEJNN" target="_blank" alt="link to subsequent node dependancie, node app or code code">HTML</a></li>
+<li><a href="https://bit.ly/2TcFS1k" target="_blank" alt="link to subsequent node dependancie, node app or code code">CSS</a></li>
+<li><a href="https://bit.ly/1cYzv8q" target="_blank" alt="link to subsequent node dependancie, node app or code code">Javascript</a></li>
+<li><a href="https://bit.ly/1AOYl0q" target="_blank" alt="link to subsequent node dependancie, node app or code code">Jquery</a></li>
+<li><a href="https://bit.ly/2wztb2m" target="_blank" alt="link to subsequent node dependancie, node app or code code">bootstrap</a></li>
 <ul>
-    <li><a href="https://bit.ly/1LjG5AH">Node</a></li>
+    <li><a href="https://bit.ly/1LjG5AH" target="_blank" alt="link to subsequent node dependancie, node app or code code">Node</a></li>
     <ul>
-        <li><a href="https://bit.ly/2ssAXN3">dotenv</a></li>
-        <li><a href="https://bit.ly/2kh3jU4">Json</a></li>
-        <li><a href="https://bit.ly/2H3dWq7">ansi-escapes</a></li>
-        <li><a href="https://bit.ly/2GJET30">ansi-regex</a></li>
-        <li><a href="https://bit.ly/2Ev2ems">ansi-styles</a></li>
-        <li><a href="https://bit.ly/2IyieIk">bignumber.js</a></li>
-        <li><a href="https://bit.ly/2NraruV">chardet</a></li>
-        <li><a href="https://bit.ly/2SpCV98">cli-cursor</a></li>
-        <li><a href="https://bit.ly/2EwfNSH">clone</a></li>
-        <li><a href="https://bit.ly/2tFvRuZ">color-convert</a></li>
-        <li><a href="https://bit.ly/2GHwRaO">color-name</a></li>
-        <li><a href="https://bit.ly/2U7GNx8">console.table</a></li>
-        <li><a href="https://bit.ly/2tyxECc">core-util-is</a></li>
-        <li><a href="https://bit.ly/2Vcsjfu">defaults</a></li>
-        <li><a href="https://bit.ly/2XlNiyE">easy-table</a></li>
-        <li><a href="https://bit.ly/2IBU67P">escape-string-regexp</a></li>
-        <li><a href="https://bit.ly/2VjQKIe">external-editor</a></li>
-        <li><a href="https://bit.ly/2NpF97G">figures</a></li>
-        <li><a href="https://bit.ly/2SkXnIg">has-flag</a></li>
-        <li><a href="https://bit.ly/2Ns8L49">iconv-lite</a></li>
-        <li><a href="https://bit.ly/2Iym7wU">inherits</a></li>
-        <li><a href="https://bit.ly/2BQXbLz">inquire</a></li>
-        <li><a href="https://bit.ly/2XlFxZr">is-fullwidth-code-point</a></li>
-        <li><a href="https://bit.ly/2Easbq2">is-promise</a></li>
-        <li><a href="https://bit.ly/2Tdx4In">isarray</a></li>
-        <li><a href="https://bit.ly/2SUKTfH">lodash</a></li>
-        <li><a href="https://bit.ly/2H0Qee3">mimic-fn</a></li>
-        <li><a href="https://bit.ly/2VjR5uu">mute-stream</a></li>
-        <li><a href="https://bit.ly/2yMBvfz">mysql</a></li>
-        <li><a href="https://bit.ly/2NphKDc">onetime</a></li>
-        <li><a href="https://bit.ly/2GHkw6f">os-tmpdir</a></li> *os-tmpdir has been depriciated but it still listed as a packet dependancy so it has been included
-        <li><a href="https://bit.ly/2NpMfZM">process-nextick-args</a></li>
-        <li><a href="https://bit.ly/2VkiXia">readable-stream</a></li>
-        <li><a href="https://bit.ly/2GHsTyJ">restore-cursor</a></li>
-        <li><a href="https://bit.ly/2Iyoyzy">run-async</a></li>
-        <li><a href="https://bit.ly/2IvRatd">rxjs</a></li>
-        <li><a href="http://bit.ly/safe-buf">safe-buffer</a></li>
-        <li><a href="http://bit.ly/2EtRlkK">signal-exit</a></li>
-        <li><a href="http://bit.ly/2XipSu1">sqlstring</a></li>
-        <li><a href="http://bit.ly/2NtvrAZ">string-width</a></li>
-        <li><a href="http://bit.ly/2H0r1Az">string_decoder</a></li>
-        <li><a href="http://bit.ly/2EuZt4z">strip-ansi</a></li>
-        <li><a href="http://bit.ly/2ViR364">supports-color</a></li>
-        <li><a href="http://bit.ly/2NsmWGm">symbol-observable</a></li>
-        <li><a href="http://bit.ly/2tBY8mo">through</a></li>
-        <li><a href="http://bit.ly/2tALS5B">util-deprecate</a></li>
-        <li><a href="http://bit.ly/2NrS4pE">wcwidth</a></li>
+        <li><a href="https://bit.ly/2ssAXN3" target="_blank" alt="link to subsequent node dependancie, node app or code code">dotenv</a></li>
+        <li><a href="https://bit.ly/2kh3jU4" target="_blank" alt="link to subsequent node dependancie, node app or code code">Json</a></li>
+        <li><a href="https://bit.ly/2H3dWq7" target="_blank" alt="link to subsequent node dependancie, node app or code code">ansi-escapes</a></li>
+        <li><a href="https://bit.ly/2GJET30" target="_blank" alt="link to subsequent node dependancie, node app or code code">ansi-regex</a></li>
+        <li><a href="https://bit.ly/2Ev2ems" target="_blank" alt="link to subsequent node dependancie, node app or code code">ansi-styles</a></li>
+        <li><a href="https://bit.ly/2IyieIk" target="_blank" alt="link to subsequent node dependancie, node app or code code">bignumber.js</a></li>
+        <li><a href="https://bit.ly/2NraruV" target="_blank" alt="link to subsequent node dependancie, node app or code code">chardet</a></li>
+        <li><a href="https://bit.ly/2SpCV98" target="_blank" alt="link to subsequent node dependancie, node app or code code">cli-cursor</a></li>
+        <li><a href="https://bit.ly/2EwfNSH" target="_blank" alt="link to subsequent node dependancie, node app or code code">clone</a></li>
+        <li><a href="https://bit.ly/2tFvRuZ" target="_blank" alt="link to subsequent node dependancie, node app or code code">color-convert</a></li>
+        <li><a href="https://bit.ly/2GHwRaO" target="_blank" alt="link to subsequent node dependancie, node app or code code">color-name</a></li>
+        <li><a href="https://bit.ly/2U7GNx8" target="_blank" alt="link to subsequent node dependancie, node app or code code">console.table</a></li>
+        <li><a href="https://bit.ly/2tyxECc" target="_blank" alt="link to subsequent node dependancie, node app or code code">core-util-is</a></li>
+        <li><a href="https://bit.ly/2Vcsjfu" target="_blank" alt="link to subsequent node dependancie, node app or code code">defaults</a></li>
+        <li><a href="https://bit.ly/2XlNiyE" target="_blank" alt="link to subsequent node dependancie, node app or code code">easy-table</a></li>
+        <li><a href="https://bit.ly/2IBU67P" target="_blank" alt="link to subsequent node dependancie, node app or code code">escape-string-regexp</a></li>
+        <li><a href="https://bit.ly/2VjQKIe" target="_blank" alt="link to subsequent node dependancie, node app or code code">external-editor</a></li>
+        <li><a href="https://bit.ly/2NpF97G" target="_blank" alt="link to subsequent node dependancie, node app or code code">figures</a></li>
+        <li><a href="https://bit.ly/2SkXnIg" target="_blank" alt="link to subsequent node dependancie, node app or code code">has-flag</a></li>
+        <li><a href="https://bit.ly/2Ns8L49" target="_blank" alt="link to subsequent node dependancie, node app or code code">iconv-lite</a></li>
+        <li><a href="https://bit.ly/2Iym7wU" target="_blank" alt="link to subsequent node dependancie, node app or code code">inherits</a></li>
+        <li><a href="https://bit.ly/2BQXbLz" target="_blank" alt="link to subsequent node dependancie, node app or code code">inquire</a></li>
+        <li><a href="https://bit.ly/2XlFxZr" target="_blank" alt="link to subsequent node dependancie, node app or code code">is-fullwidth-code-point</a></li>
+        <li><a href="https://bit.ly/2Easbq2" target="_blank" alt="link to subsequent node dependancie, node app or code code">is-promise</a></li>
+        <li><a href="https://bit.ly/2Tdx4In" target="_blank" alt="link to subsequent node dependancie, node app or code code">isarray</a></li>
+        <li><a href="https://bit.ly/2SUKTfH" target="_blank" alt="link to subsequent node dependancie, node app or code code">lodash</a></li>
+        <li><a href="https://bit.ly/2H0Qee3" target="_blank" alt="link to subsequent node dependancie, node app or code code">mimic-fn</a></li>
+        <li><a href="https://bit.ly/2VjR5uu" target="_blank" alt="link to subsequent node dependancie, node app or code code">mute-stream</a></li>
+        <li><a href="https://bit.ly/2yMBvfz" target="_blank" alt="link to subsequent node dependancie, node app or code code">mysql</a></li>
+        <li><a href="https://bit.ly/2NphKDc" target="_blank" alt="link to subsequent node dependancie, node app or code code">onetime</a></li>
+        <li><a href="https://bit.ly/2GHkw6f" target="_blank" alt="link to subsequent node dependancie, node app or code code">os-tmpdir</a></li> *os-tmpdir has been depriciated but it still listed as a packet dependancy so it has been included
+        <li><a href="https://bit.ly/2NpMfZM" target="_blank" alt="link to subsequent node dependancie, node app or code code">process-nextick-args</a></li>
+        <li><a href="https://bit.ly/2VkiXia" target="_blank" alt="link to subsequent node dependancie, node app or code code">readable-stream</a></li>
+        <li><a href="https://bit.ly/2GHsTyJ" target="_blank" alt="link to subsequent node dependancie, node app or code code">restore-cursor</a></li>
+        <li><a href="https://bit.ly/2Iyoyzy" target="_blank" alt="link to subsequent node dependancie, node app or code code">run-async</a></li>
+        <li><a href="https://bit.ly/2IvRatd" target="_blank" alt="link to subsequent node dependancie, node app or code code">rxjs</a></li>
+        <li><a href="http://bit.ly/safe-buf" target="_blank" alt="link to subsequent node dependancie, node app or code code">safe-buffer</a></li>
+        <li><a href="http://bit.ly/2EtRlkK" target="_blank" alt="link to subsequent node dependancie, node app or code code">signal-exit</a></li>
+        <li><a href="http://bit.ly/2XipSu1" target="_blank" alt="link to subsequent node dependancie, node app or code code">sqlstring</a></li>
+        <li><a href="http://bit.ly/2NtvrAZ" target="_blank" alt="link to subsequent node dependancie, node app or code code">string-width</a></li>
+        <li><a href="http://bit.ly/2H0r1Az" target="_blank" alt="link to subsequent node dependancie, node app or code code">string_decoder</a></li>
+        <li><a href="http://bit.ly/2EuZt4z" target="_blank" alt="link to subsequent node dependancie, node app or code code">strip-ansi</a></li>
+        <li><a href="http://bit.ly/2ViR364" target="_blank" alt="link to subsequent node dependancie, node app or code code">supports-color</a></li>
+        <li><a href="http://bit.ly/2NsmWGm" target="_blank" alt="link to subsequent node dependancie, node app or code code">symbol-observable</a></li>
+        <li><a href="http://bit.ly/2tBY8mo" target="_blank" alt="link to subsequent node dependancie, node app or code code">through</a></li>
+        <li><a href="http://bit.ly/2tALS5B" target="_blank" alt="link to subsequent node dependancie, node app or code code">util-deprecate</a></li>
+        <li><a href="http://bit.ly/2NrS4pE" target="_blank" alt="link to subsequent node dependancie, node app or code code">wcwidth</a></li>
     </ul>
 </ul>
 </ul>
