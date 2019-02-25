@@ -7,7 +7,7 @@
 
 Utilizing a multitude of functions, formulas and coding languages, the project here was to create a fully functional and usable storefront form thats functionality is to be executed within terminal. 
 <hr>
-<h1>Programs/node apps used to complete this application</h1>
+<h1>Programs/<a href="https://bit.ly/2U4VW2o">node apps</a>/node dependancies used to complete this application</h1>
 <br>
 <ul>
 <li><a href="https://bit.ly/2GZTqXu">My SQL Workbench</a></li>
