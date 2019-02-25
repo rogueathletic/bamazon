@@ -377,6 +377,8 @@ function startShopping() {
 }; <----- Closing tag for continueShopping() function that does not want to stay in the code container
 
 
+<p align="justify">&nbsp;&nbsp;&nbsp; At this point we have p[rovided the consumer with their final bill for the session. Or we notified them the product they want is no longer in stick and have provided the consumer with a value proposition to reachout to a sales member to seek future availability. This part of a sale is often over looked. Many consumers are more than willing to jump through virtual hoops to get what they want "IF" the avenue to do so is easy and inviting to execute the evolution. If it is not, the consumer will revert back to the web to try and source the product at the level of justified value proposition they originally intended to purchase at. Only if this is not found elsewhere they will return for the sale.</p>
+
 ```&nbsp;
 function continueShopping() {
     inquirer.prompt([{
