@@ -4,7 +4,7 @@
     font-weight: 200;
 }
 xmp {
-    box-shadow: 10px 10px 30px black;
+    box-shadow: 10px 10px 30px rgba(0,0,0,.6);
     border-bottom-right-radius: 30px;
     border-top-left-radius: 30px;
     width: 80vw;
