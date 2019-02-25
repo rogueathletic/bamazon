@@ -9,13 +9,13 @@
     <span><a href=".....">Set up | </a></span>
     <span><a href="....."> </a></span>
     <span><a href="mailto:jason@skunkworksweb.io">contact | </a></span>
-
+<br>
 </div>
 <p align="center">
 <img src="https://i.imgur.com/vVwCra2.png" alt="Trulli" width="50%" height="auto" margin-left="20%" alt="unlicensed bootleg art using toe Amazon logo as base with user input art to illustrate visual catchall of app">
 </p>
 
-<br><br><br>
+<br>
 
 Utilizing a multitude of functions, formulas and coding languages, the project here was to create a fully functional and usable storefront form thats functionality is to be executed within terminal. 
 <hr>
