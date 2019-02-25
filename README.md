@@ -403,7 +403,7 @@ function continueShopping() {
 </details>
 <br>
 <details> <summary><h1 id="Demo">Demo</h1></summary>
-![](https://i.imgur.com/zPzuoNR.gif)
+<gif src="https://i.imgur.com/zPzuoNR.gif" alt="Gif of application in use">
 </details>
 <br>
 <details> <summary><h1 id="set-up">Set Up</h1></summary>
