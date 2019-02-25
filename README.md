@@ -1,7 +1,7 @@
-<details>
+<details id"top">
 <summary align="center">M E N U</summary>
 <div class=container align="center">
-<span><a href=".....">App Desc. | </a></span>
+<span><a href="#top">Intro | </a></span>
 <span><a href="#node">Node | </a></span>
 <span><a href="#mysql">MySQL Code | </a></span>
 <span><a href="#javascript">Javascript Code | </a></span>
@@ -434,7 +434,7 @@ ok... So you have written your code. All of your dependancies notied above have 
 <details>
 <summary align="center">F O O T E R &nbsp; M E N U</summary>
 <div class=container align="center">
-<span><a href=".....">App Desc. | </a></span>
+<span><a href="#top">Top | </a></span>
 <span><a href="#node">Node | </a></span>
 <span><a href="#mysql">MySQL Code | </a></span>
 <span><a href="#javascript">Javascript Code | </a></span>
