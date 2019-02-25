@@ -11,17 +11,22 @@
 <br>
     <br>
 </div>
+
 <p align="center">
-<img src="https://i.imgur.com/vVwCra2.png" alt="Trulli" width="50%" height="auto" margin-left="20%" alt="unlicensed bootleg art using toe Amazon logo as base with user input art to illustrate visual catchall of app">
+    <img src="https://i.imgur.com/vVwCra2.png" alt="Trulli" width="50%" height="auto" margin-left="20%" alt="unlicensed bootleg art using toe Amazon logo as base with user input art to illustrate visual catchall of app">
 </p>
 
 <br>
-
-Utilizing a multitude of functions, formulas and coding languages, the project here was to create a fully functional and usable storefront form thats functionality is to be executed within terminal. 
+<p align="justify">
+Utilizing a multitude of functions, formulas and coding languages, the project here was to create a fully functional and usable storefront form. The programs functionality is to be executed within terminal. For this challenge we were presented with a new coding type as we have been each week for just over three months. We were tasked to create our first MySQL database within the MYSQL Woorkbench program that will talk with the javascript we wrote in <a href="https://bit.ly/2VfZi2H">Visual Studion Code</a> to execute compounding sales and extrapulate working invintory for the items we have created for our store. I chose to make a Bike Shop for this project. 
+<br>
+    In the effort for absolute transparency I have broken down each code segment and or function down to their core use. I feel this allows you the reader to better understand the flow of the completed project. The menu above should allow for ease of use moving quickly to specific segments of this readme.md document.
+</p>
 <hr>
-<h2 align="center">used to complete this application:<br><a href="https://bit.ly/2IC3Sa1">Languages | </a>
-    <a href="https://bit.ly/2U4VW2o" target="_blank"> node apps | </a>
-    <a href="https://bit.ly/2U7qnVs"> node dependancies</a></h2>
+<h2 align="center">used to complete this application:<br>
+        <a href="https://bit.ly/2IC3Sa1">Languages | </a>
+        <a href="https://bit.ly/2U4VW2o" target="_blank"> node apps | </a>
+        <a href="https://bit.ly/2U7qnVs"> node dependancies</a></h2>
     <br>
 <ul>
 <li><a href="https://bit.ly/2GZTqXu" target="_blank" alt="link to subsequent node dependancie, node app or code code">My SQL Workbench</a></li>
