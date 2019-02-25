@@ -19,7 +19,7 @@
 
 Utilizing a multitude of functions, formulas and coding languages, the project here was to create a fully functional and usable storefront form thats functionality is to be executed within terminal. 
 <hr>
-<h1>Programs, <a href="https://bit.ly/2U4VW2o" target="_blank">node apps</a> & <a href="http://bit.ly/2U7qnVs">node dependancies</a> used to complete this application</h1>
+<h1>Languages, <a href="https://bit.ly/2U4VW2o" target="_blank">node apps</a> & <a href="http://bit.ly/2U7qnVs">node dependancies</a> used to complete this application</h1>
 <br>
 <ul>
 <li><a href="https://bit.ly/2GZTqXu" target="_blank" alt="link to subsequent node dependancie, node app or code code">My SQL Workbench</a></li>
@@ -81,6 +81,9 @@ Utilizing a multitude of functions, formulas and coding languages, the project h
     </ul>
 </ul>
 </ul>
+<br>
+<p>***The legnth of the list above should be noted that the vast majority of these node programs are strict dependancies of the primary ones used. It is good to understand that when you bring one npm packet into your root files or directly into your project it is called a packet for the reason above. There are many working parts to these programd and knowing that even though a few of these programs are one - two lines they provide a systaining component to allow all of the pther systems to work well and in a mannor we expect with the speed of the internet today.</p>
+<br>
 <hr>
 <br>    
 MySQL information to create DB and Table
