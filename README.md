@@ -95,7 +95,6 @@ Utilizing a multitude of functions, formulas and coding languages, the project h
 <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;***The legnth of the list above should be noted that the vast majority of these node programs are strict dependancies of the primary ones used. It is good to understand that when you bring one npm packet into your root files or directly into your project it is called a packet for the reason above. There are many working parts to these programd and knowing that even though a few of these programs are one - two lines they provide a systaining component to allow all of the pther systems to work well and in a mannor we expect with the speed of the internet today.***</p>
  </details>
 <br>
-<hr>
 <details>
 <summary><h1 id="mysql">MySQL</h1></summary>
 <br>
@@ -273,5 +272,19 @@ Where the code above is formatted in a way for e to bulk upload. The table below
 </tbody>
 </table>
 </details>
-<hr>
+<br>
+<details>
+<summary><h1 id="javascript">Javascript</h1></summary>
 
+</details>
+<br>
+<details>
+<summary><h1 id="Demo">Demo</h1></summary>
+
+</details>
+<br>
+<details>
+<summary><h1 id="set-up">Set Up</h1></summary>
+
+</details>
+<br>
