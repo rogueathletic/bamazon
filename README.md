@@ -343,7 +343,8 @@ var keys = require("./keys");
 
 
     ])
-    .then(function (answer) {
+    ```
+   ```.then(function (answer) {
         if (!(answer.itemID && answer.quantity)) {
             continueShopping();
             return;
