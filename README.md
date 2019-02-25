@@ -23,7 +23,7 @@
 Utilizing a multitude of functions, formulas and coding languages, the project here was to create a fully functional and usable storefront form. The programs functionality is to be executed within terminal. For this challenge we were presented with a new coding type as we have been each week for just over three months. We were tasked to create our first MySQL database within the MYSQL Woorkbench program that will talk with the javascript we wrote in <a href="https://bit.ly/2VfZi2H">Visual Studion Code</a> to execute compounding sales and extrapulate working invintory for the items we have created for our store. I chose to make a Bike Shop for this project. 
 <br>
 <br>
-In the effort to provide project transparency and understanding I have broken down each code segment and or function down to their core use. I feel this allows you the reader to better understand the flow of the completed project. The menu above should allow for ease of use moving quickly to specific segments of this readme.md document.
+In the effort to provide project transparency and understanding I have broken down each code segment and or function down to their core use. I feel this allows you the reader to better understand the flow of the completed project. The menu above should allow for ease of use moving quickly to specific segments of this readme.md document.</p>
 <br>
 <br>
 <p align="center"><i> Click on the coresponding aarows paired with each code topic to read more</i></p>
@@ -283,7 +283,7 @@ Where the code above is formatted in a way for e to bulk upload. The table below
 <br>
 
 <details> <summary><h1 id="javascript">Javascript</h1></summary>
-    <br>
+<br>
 <p align="justify">&nbsp;&nbsp;&nbsp;The three Required statements below depect the three primary packets that I have required for this app to function. the only time full instilation is required is when the program is being created. From there; you, the end user can simply (if you already have node installed globally on your computer> Can simply run "npm install" from Terminal or Bash to bring all of the needed code structures to execute the program</p>
 
 
@@ -298,31 +298,31 @@ var keys = require("./keys");
 
 ```&nbsp;
 var connection = mysql.createConnection({
-    host: "localhost",
-    port: 3306,
-    user: "root",
-    password: "###################",
-    database: "bamazon"
+host: "localhost",
+port: 3306,
+user: "root",
+password: "###################",
+database: "bamazon"
 });
 ```
 <p align="justify">&nbsp;&nbsp;&nbsp;This is the point where connection is set to establish between your MYSQL server and your local computer. For the instance within this app both are located in the same space for practical application. You will note the if statement attached to the connection request. This will allert you via terminal there was an error establishing connectinn if there was an issue. If there was not an issue... The app will rin and the err notification will be disreagrded until it is needed if it is ever needed.</p>
 
 ```&nbsp;
 connection.connect(function (err) {
-    if (err) throw err;
-    availableProducts();
+if (err) throw err;
+availableProducts();
 });
 ```
 <p align="justify">&nbsp;&nbsp;&nbsp;At this point we begin to import the Bike Shop invintory that is defined in the Schema located in MYSQL Workbency. For the purposes of this app, I have chosen to include both the csv content and the schema within a single file to provide easier readability for the program.</p>
 
 ```&nbsp;
 function availableProducts() {
-    console.log("\nBike Shop Merchandise: \n");
-    connection.query("SELECT id, productName, price FROM products", function (err, results) {
-        if (err) throw err;
-        console.table(results);
-        startShopping();
-    });
+console.log("\nBike Shop Merchandise: \n");
+connection.query("SELECT id, productName, price FROM products", function (err, results) {
+if (err) throw err;
+console.table(results);
+startShopping();
+});
 }
 ```
 
@@ -332,48 +332,48 @@ Then...</p>
 
 ```&nbsp;
 function startShopping() {
-    inquirer.prompt([{
-            name: "itemID",
-            type: "input",
-            message: "Please enter the ID Number for the Item you wish to buy: "
-        },
-        {
-            name: "quantity",
-            type: "input",
-            message: "Please enter the # of items you wish to buy:"
-        }
+inquirer.prompt([{
+name: "itemID",
+type: "input",
+message: "Please enter the ID Number for the Item you wish to buy: "
+},
+{
+name: "quantity",
+type: "input",
+message: "Please enter the # of items you wish to buy:"
+}
 
 
-    ])
-    .then(function (answer) {
-        if (!(answer.itemID && answer.quantity)) {
-            continueShopping();
-            return;
-        }
-     connection.query("SELECT * FROM products WHERE ?", {
-            id: answer.itemID
-        }, function (err, results) {
-            if (err) throw err;
-            if (results[0].stockQuantity >= answer.quantity) {
-                var itemsRemaining = results[0].stockQuantity - answer.quantity;
-                var purchaseTotal = answer.quantity * results[0].price;
-                connection.query(`UPDATE products SET stockQuantity=${itemsRemaining} WHERE id=${answer.itemID}`,
+])
+.then(function (answer) {
+if (!(answer.itemID && answer.quantity)) {
+continueShopping();
+return;
+}
+connection.query("SELECT * FROM products WHERE ?", {
+id: answer.itemID
+}, function (err, results) {
+if (err) throw err;
+if (results[0].stockQuantity >= answer.quantity) {
+var itemsRemaining = results[0].stockQuantity - answer.quantity;
+var purchaseTotal = answer.quantity * results[0].price;
+connection.query(`UPDATE products SET stockQuantity=${itemsRemaining} WHERE id=${answer.itemID}`,
 ```
 
 <p align="justify">&nbsp;&nbsp;&nbsp; At this point we have p[rovided the consumer with their final bill for the session. Or we notified them the product they want is no longer in stick and have provided the consumer with a value proposition to reachout to a sales member to seek future availability. This part of a sale is often over looked. Many consumers are more than willing to jump through virtual hoops to get what they want "IF" the avenue to do so is easy and inviting to execute the evolution. If it is not, the consumer will revert back to the web to try and source the product at the level of justified value proposition they originally intended to purchase at. Only if this is not found elsewhere they will return for the sale.</p>
 
 
-                function (err, results) {
-                        if (err) throw err;
-                        console.log(`Your total is: ${purchaseTotal}`);
-                        continueShopping();
-                    });
-                    }else {
-                console.log("Unfortunatly at this time we are out of stock for the item you requested. Please check back later or contact our sales department to find out when the item will be back in stock.");
-                continueShopping();
-            }
-        });
-    });
+function (err, results) {
+if (err) throw err;
+console.log(`Your total is: ${purchaseTotal}`);
+continueShopping();
+});
+}else {
+console.log("Unfortunatly at this time we are out of stock for the item you requested. Please check back later or contact our sales department to find out when the item will be back in stock.");
+continueShopping();
+}
+});
+});
 }; <----- Closing tag for continueShopping() function that does not want to stay in the code container
 
 
@@ -381,21 +381,21 @@ function startShopping() {
 
 ```&nbsp;
 function continueShopping() {
-    inquirer.prompt([{
-        name: "tryAgain",
-        type: "confirm",
-        message: "Would you like to continue ordering? or process your bill and exit? "
-    }]).then(function (answer) {
-        if (answer.tryAgain) {
-            availableProducts();
-        } else {
-            connection.query("SELECT * FROM products", function (err, results) {
-                if (err) throw err;
-                console.table(results);
-            });
-            console.log("Your session has ended.  Thank you for shopping Bike Shop");
-        }
-    });
+inquirer.prompt([{
+name: "tryAgain",
+type: "confirm",
+message: "Would you like to continue ordering? or process your bill and exit? "
+}]).then(function (answer) {
+if (answer.tryAgain) {
+availableProducts();
+} else {
+connection.query("SELECT * FROM products", function (err, results) {
+if (err) throw err;
+console.table(results);
+});
+console.log("Your session has ended.  Thank you for shopping Bike Shop");
+}
+});
 }
 ```
 <p align="justify">&nbsp;&nbsp;&nbsp; Thank you for taking the time to review my code. Please feel free to utilize the contact link in the footer and header menus if you have any questions.</p>
@@ -408,26 +408,26 @@ function continueShopping() {
 <br>
 <details> <summary><h1 id="set-up">Set Up</h1></summary>
 <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;If you are as stoked as I am to be able to run a program like this from raw coding then your ready to try it on your own. Please feel free to use this code as your road map to writing your own content. There are a few things you will need to execute this process. I have listed them below in a numbered list in order for you:
-    
-    <ol>
-  <li>you will need a code editor. <a href="https://bit.ly/2VfZi2H">Visual Studion Code</a> is what I use and it is free.</li>
-  <li>you will need to add <a href="https://bit.ly/2GZTqXu">MYSQL Workbench</a> also linked above</li>
-  <li><a href="https://bit.ly/2nFUiTV">W3 Schools</a> has been the best source of information to make sense of this process to this level I have found. If you find another source you like better thats perfectly fine</li>
-    <li>you will need to set up a password to utilize your <a href="https://apple.co/2Bu62kh">Root</a> functions to run your code on the command line</li>
-  <li>pier review is a fantastic tool when you get stuck and <a href="https://bit.ly/1x0885j">Stack Overflow</a> is a fantastic location for this</li>
-  
+
+<ol>
+<li>you will need a code editor. <a href="https://bit.ly/2VfZi2H">Visual Studion Code</a> is what I use and it is free.</li>
+<li>you will need to add <a href="https://bit.ly/2GZTqXu">MYSQL Workbench</a> also linked above</li>
+<li><a href="https://bit.ly/2nFUiTV">W3 Schools</a> has been the best source of information to make sense of this process to this level I have found. If you find another source you like better thats perfectly fine</li>
+<li>you will need to set up a password to utilize your <a href="https://apple.co/2Bu62kh">Root</a> functions to run your code on the command line</li>
+<li>pier review is a fantastic tool when you get stuck and <a href="https://bit.ly/1x0885j">Stack Overflow</a> is a fantastic location for this</li>
+
 </ol>
 ok... So you have written your code. All of your dependancies notied above have been requested and added within your file folder for the program, youre mysql Workbench is up and running and all you want in life is to run your script in the command line. what now?
 <ol start="6">
-  <li>you will need to figure out the primary location of your MYSQL database located on your hard drive.</li>
-  <li>now that you have located the file location you will also need to remark the location of your bamazon.sql file within your app. combine the two file type locations with the script below directly on your command line. replace the brackets as well as their content with the applicable absolute file locations. relative file locations will not work for htis process</li>
-  <li>```[mysql location] -u root -p < [bamazon.sql file location]```</li>
-   <li>submit</li>
-    <li>If the file path was done correctly you will be presented with a request to input your root password and not your UI password. The steps to obtain this are listed in the link on item line #4</li>
-     <li>if you have set up your password correctly and typed it in correctly when you submit you will simply be returned to your primary command line script. this is hwo you know you have started your server. If the connection does not commit you wil receive an error notification. be mindful of the information in your error code as it will tell you what is wrong and sometimes how to repair the error.</li>
-     <li>At this point I am going to assume you have found your MYSQL root location, you have obtained your root password and you have run the needed script to enact your servier through your command line. Now you will need to run one more line of code from terminal on the command line and your app should primpt just as the one I created did.</li>
-     <li>```node bamazonConsumer.js```</li>
-     <li>hope it worked for you and you enjoyed reading my README.md</li>
+<li>you will need to figure out the primary location of your MYSQL database located on your hard drive.</li>
+<li>now that you have located the file location you will also need to remark the location of your bamazon.sql file within your app. combine the two file type locations with the script below directly on your command line. replace the brackets as well as their content with the applicable absolute file locations. relative file locations will not work for htis process</li>
+<li>```[mysql location] -u root -p < [bamazon.sql file location]```</li>
+<li>submit</li>
+<li>If the file path was done correctly you will be presented with a request to input your root password and not your UI password. The steps to obtain this are listed in the link on item line #4</li>
+<li>if you have set up your password correctly and typed it in correctly when you submit you will simply be returned to your primary command line script. this is hwo you know you have started your server. If the connection does not commit you wil receive an error notification. be mindful of the information in your error code as it will tell you what is wrong and sometimes how to repair the error.</li>
+<li>At this point I am going to assume you have found your MYSQL root location, you have obtained your root password and you have run the needed script to enact your servier through your command line. Now you will need to run one more line of code from terminal on the command line and your app should primpt just as the one I created did.</li>
+<li>[node bamazonConsumer.js]</li>
+<li>hope it worked for you and you enjoyed reading my README.md</li>
 </ol>
 </details>
 <br>
