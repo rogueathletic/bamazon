@@ -1,14 +1,14 @@
 <div class=container align="center">
     <span><a href=".....">App Desc. | </a></span>
-        <span><a href=".....">Dependancies | </a></span>
-        <span><a href=".....">MySQL Code | </a></span>
-        <span><a href=".....">Javascript Code | </a></span>
-        <span><a href=".....">IRL use | </a></span>
-        <span><a href=".....">demo | </a></span>
-        <span><a href="mailto:jason@skunkworksweb.io">contact | </a></span>
-        <span><a href="....."> | </a></span>
-        <span><a href="....."> | </a></span>
-        <span><a href="....."> </a></span>
+    <span><a href=".....">Dependancies | </a></span>
+    <span><a href=".....">MySQL Code | </a></span>
+    <span><a href=".....">Javascript Code | </a></span>
+    <span><a href=".....">IRL use | </a></span>
+    <span><a href=".....">demo | </a></span>
+    <span><a href="https://github.com/rogueathletic/bamazon" download>Download | </a></span>
+    <span><a href=".....">Set up | </a></span>
+    <span><a href="....."> </a></span>
+    <span><a href="mailto:jason@skunkworksweb.io">contact | </a></span>
 
 </div>
 <p align="center">
