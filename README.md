@@ -1,4 +1,16 @@
+<div class=container align="center">
+    <span><a href=".....">App Desc. | </a></span>
+        <span><a href=".....">Dependancies | </a></span>
+        <span><a href=".....">MySQL Code | </a></span>
+        <span><a href=".....">Javascript Code | </a></span>
+        <span><a href=".....">IRL use | </a></span>
+        <span><a href=".....">demo | </a></span>
+        <span><a href="mailto:jason@skunkworksweb.io">contact | </a></span>
+        <span><a href="....."> | </a></span>
+        <span><a href="....."> | </a></span>
+        <span><a href="....."> </a></span>
 
+</div>
 <p align="center">
 <img src="https://i.imgur.com/vVwCra2.png" alt="Trulli" width="50%" height="auto" margin-left="20%">
 </p>
