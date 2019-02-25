@@ -24,7 +24,7 @@ Utilizing a multitude of functions, formulas and coding languages, the project h
     In the effort to provide project transparency and understanding I have broken down each code segment and or function down to their core use. I feel this allows you the reader to better understand the flow of the completed project. The menu above should allow for ease of use moving quickly to specific segments of this readme.md document.
     <br>
     <br>
-    <p align="center"><em>Click on the coresponding aarows paired with each code topic to read more</em></p>
+    <p align="center"><em>+ Click on the coresponding aarows paired with each code topic to read more</em></p>
 </p>
 <hr>
 <details>
