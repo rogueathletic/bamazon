@@ -240,7 +240,7 @@ Where the code above is formatted in a way for e to bulk upload. The table below
 <tr>
 <td style="text-align: center;">011</td>
 <td style="text-align: right;">Beats by Dre Headphones</td>
-<td style="text-align: center;">Shoes</td>
+<td style="text-align: center;">Accessories</td>
 <td style="text-align: center;">130.00</td>
 <td style="text-align: center;">18</td>
 </tr>
