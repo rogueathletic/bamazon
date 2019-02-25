@@ -280,11 +280,9 @@ Where the code above is formatted in a way for e to bulk upload. The table below
 </details>
 <br>
 
-+++++++++++++++++++++++++++++++++++
-+++++++++++++++++++++++++++++++++++
 <details> <summary><h1 id="javascript">Javascript</h1></summary>
     <br>
-<p align="justify">&nbsp;&nbsp;&nbsp;</p>
+<p align="justify">&nbsp;&nbsp;&nbsp;the three Required statements below depect the three primary packets that I have required for this app to function. the only time full instilation is required is when the program is being created. From there; you, the end user can simply (if you already have node installed globally on your computer> Can simply run ```$npm install``` from Terminal or Bash to bring all of the needed code structures to execute the program</p>
 
 
 ```const mysql = require('mysql'); 
@@ -349,9 +347,7 @@ var keys = require("./keys");
             continueShopping();
             return;
         }
-        ```
-
-        ```connection.query("SELECT * FROM products WHERE ?", {
+     connection.query("SELECT * FROM products WHERE ?", {
             id: answer.itemID
         }, function (err, results) {
             if (err) throw err;
@@ -361,25 +357,19 @@ var keys = require("./keys");
                 connection.query(`UPDATE products SET stockQuantity=${itemsRemaining} WHERE id=${answer.itemID}`,
 ```
 
-                ```function (err, results) {
+                function (err, results) {
                         if (err) throw err;
                         console.log(`Your total is: ${purchaseTotal}`);
                         continueShopping();
                     });
-                    } 
-            ```
-
-
-            ```else {
+                    }else {
                 console.log("Unfortunatly at this time we are out of stock for the item you requested. Please check back later or contact our sales department to find out when the item will be back in stock.");
                 continueShopping();
             }
         });
     });
-}
+};
 ```
-
-
 
 
 ```function continueShopping() {
@@ -400,7 +390,7 @@ var keys = require("./keys");
     });
 }
 ```
-/* -----> ***** Many of the console.log files were formatted using ES6. This process used console.log just as it is in es5 but once within the parenthesies you will use backtick to contain all contents in the parenthesies where once you have completed your message copy you then use = and then you use $ with no space between the two symbols. Then you will want to use the curly brackets again with no symbols or spaces after the dollar sign. Inside the curly brackets is where the contents that need to be called should be placed. Once this info has been added you will close the console log with a ; at thee end as you normally would. Then move to the next line and continue your code.  ***** <----- J.SCHUTZ */
+
 
 </details>
 ++++++++++++++++++++++++++++++++++
