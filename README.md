@@ -370,7 +370,7 @@ function startShopping() {
             }
         });
     });
-};
+}; <----- Closing tag for continueShopping() function that does not want to stay in the code container
 
 
 ```&nbsp;
