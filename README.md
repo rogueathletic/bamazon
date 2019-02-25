@@ -19,9 +19,7 @@
 
 Utilizing a multitude of functions, formulas and coding languages, the project here was to create a fully functional and usable storefront form thats functionality is to be executed within terminal. 
 <hr>
-<h2 align="center">used to complete this application:<br>
-    
-    <a href="https://bit.ly/2IC3Sa1">Languages</a>
+<h2 align="center">used to complete this application:<br><a href="https://bit.ly/2IC3Sa1">Languages</a>
     <a href="https://bit.ly/2U4VW2o" target="_blank">node apps</a>
     <a href="https://bit.ly/2U7qnVs">node dependancies</a></h2>
     <br>
