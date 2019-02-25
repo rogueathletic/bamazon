@@ -24,7 +24,7 @@ Utilizing a multitude of functions, formulas and coding languages, the project h
 </p>
 <hr>
 <details>
-<summary>Node</summary>
+    <summary align="center"><h1>Node</h1></summary>
 <hr>
 <h2 align="center">used to complete this application:<br>
         <a href="https://bit.ly/2IC3Sa1">Languages | </a>
