@@ -5,6 +5,7 @@
 
 <br><br><br>
 
+Utilizing a multitude of functions, formulas and coding languages, the project here was to create a fully functional and usable storefront form
 MySQL information to create DB and Table
 
 ```DROP DATABASE IF EXISTS bamazon;```
