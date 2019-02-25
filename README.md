@@ -1,42 +1,42 @@
 <details>
 <summary align="center">M E N U</summary>
 <div class=container align="center">
-    <span><a href=".....">App Desc. | </a></span>
-    <span><a href="#node">Node | </a></span>
-    <span><a href="#mysql">MySQL Code | </a></span>
-    <span><a href="#javascript">Javascript Code | </a></span>
-    <span><a href="#Demo">demo | </a></span>
-    <span><a href="https://github.com/rogueathletic/bamazon" download>Download | </a></span>
-    <span><a href="#set-up">Set up | </a></span>
-    <span><a href="mailto:jason@skunkworksweb.io">contact</a></span>
-    </details>
+<span><a href=".....">App Desc. | </a></span>
+<span><a href="#node">Node | </a></span>
+<span><a href="#mysql">MySQL Code | </a></span>
+<span><a href="#javascript">Javascript Code | </a></span>
+<span><a href="#Demo">demo | </a></span>
+<span><a href="https://github.com/rogueathletic/bamazon" download>Download | </a></span>
+<span><a href="#set-up">Set up | </a></span>
+<span><a href="mailto:jason@skunkworksweb.io">contact</a></span>
+</details>
 <br>
-    <br>
+<br>
 </div>
 
 <p align="center">
-    <img src="https://i.imgur.com/vVwCra2.png" alt="Trulli" width="50%" height="auto" margin-left="20%" alt="unlicensed bootleg art using toe Amazon logo as base with user input art to illustrate visual catchall of app">
+<img src="https://i.imgur.com/vVwCra2.png" alt="Trulli" width="50%" height="auto" margin-left="20%" alt="unlicensed bootleg art using toe Amazon logo as base with user input art to illustrate visual catchall of app">
 </p>
 
 <br>
 <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;
 Utilizing a multitude of functions, formulas and coding languages, the project here was to create a fully functional and usable storefront form. The programs functionality is to be executed within terminal. For this challenge we were presented with a new coding type as we have been each week for just over three months. We were tasked to create our first MySQL database within the MYSQL Woorkbench program that will talk with the javascript we wrote in <a href="https://bit.ly/2VfZi2H">Visual Studion Code</a> to execute compounding sales and extrapulate working invintory for the items we have created for our store. I chose to make a Bike Shop for this project. 
 <br>
-    <br>
-    In the effort to provide project transparency and understanding I have broken down each code segment and or function down to their core use. I feel this allows you the reader to better understand the flow of the completed project. The menu above should allow for ease of use moving quickly to specific segments of this readme.md document.
-    <br>
-    <br>
-    <p align="center"><i> Click on the coresponding aarows paired with each code topic to read more</i></p>
+<br>
+In the effort to provide project transparency and understanding I have broken down each code segment and or function down to their core use. I feel this allows you the reader to better understand the flow of the completed project. The menu above should allow for ease of use moving quickly to specific segments of this readme.md document.
+<br>
+<br>
+<p align="center"><i> Click on the coresponding aarows paired with each code topic to read more</i></p>
 </p>
 <hr>
 <details>
-    <summary><h1 id="node">Node</h1></summary>
+<summary><h1 id="node">Node</h1></summary>
 <hr>
 <h2 align="center">used to complete this application:<br>
-        <a href="https://bit.ly/2IC3Sa1">Languages | </a>
-        <a href="https://bit.ly/2U4VW2o" target="_blank"> node apps | </a>
-        <a href="https://bit.ly/2U7qnVs"> node dependancies</a></h2>
-    <br>
+<a href="https://bit.ly/2IC3Sa1">Languages | </a>
+<a href="https://bit.ly/2U4VW2o" target="_blank"> node apps | </a>
+<a href="https://bit.ly/2U7qnVs"> node dependancies</a></h2>
+<br>
 <ul>
 <li><a href="https://bit.ly/2GZTqXu" target="_blank" alt="link to subsequent node dependancie, node app or code code">My SQL Workbench</a></li>
 <li><a href="https://bit.ly/2EcEJNN" target="_blank" alt="link to subsequent node dependancie, node app or code code">HTML</a></li>
@@ -45,61 +45,61 @@ Utilizing a multitude of functions, formulas and coding languages, the project h
 <li><a href="https://bit.ly/1AOYl0q" target="_blank" alt="link to subsequent node dependancie, node app or code code">Jquery</a></li>
 <li><a href="https://bit.ly/2wztb2m" target="_blank" alt="link to subsequent node dependancie, node app or code code">bootstrap</a></li>
 <ul>
-    <li><a href="https://bit.ly/1LjG5AH" target="_blank" alt="link to subsequent node dependancie, node app or code code">Node</a></li>
-    <ul>
-        <li><a href="https://bit.ly/2ssAXN3" target="_blank" alt="link to subsequent node dependancie, node app or code code">dotenv</a></li>
-        <li><a href="https://bit.ly/2kh3jU4" target="_blank" alt="link to subsequent node dependancie, node app or code code">Json</a></li>
-        <li><a href="https://bit.ly/2H3dWq7" target="_blank" alt="link to subsequent node dependancie, node app or code code">ansi-escapes</a></li>
-        <li><a href="https://bit.ly/2GJET30" target="_blank" alt="link to subsequent node dependancie, node app or code code">ansi-regex</a></li>
-        <li><a href="https://bit.ly/2Ev2ems" target="_blank" alt="link to subsequent node dependancie, node app or code code">ansi-styles</a></li>
-        <li><a href="https://bit.ly/2IyieIk" target="_blank" alt="link to subsequent node dependancie, node app or code code">bignumber.js</a></li>
-        <li><a href="https://bit.ly/2NraruV" target="_blank" alt="link to subsequent node dependancie, node app or code code">chardet</a></li>
-        <li><a href="https://bit.ly/2SpCV98" target="_blank" alt="link to subsequent node dependancie, node app or code code">cli-cursor</a></li>
-        <li><a href="https://bit.ly/2EwfNSH" target="_blank" alt="link to subsequent node dependancie, node app or code code">clone</a></li>
-        <li><a href="https://bit.ly/2tFvRuZ" target="_blank" alt="link to subsequent node dependancie, node app or code code">color-convert</a></li>
-        <li><a href="https://bit.ly/2GHwRaO" target="_blank" alt="link to subsequent node dependancie, node app or code code">color-name</a></li>
-        <li><a href="https://bit.ly/2U7GNx8" target="_blank" alt="link to subsequent node dependancie, node app or code code">console.table</a></li>
-        <li><a href="https://bit.ly/2tyxECc" target="_blank" alt="link to subsequent node dependancie, node app or code code">core-util-is</a></li>
-        <li><a href="https://bit.ly/2Vcsjfu" target="_blank" alt="link to subsequent node dependancie, node app or code code">defaults</a></li>
-        <li><a href="https://bit.ly/2XlNiyE" target="_blank" alt="link to subsequent node dependancie, node app or code code">easy-table</a></li>
-        <li><a href="https://bit.ly/2IBU67P" target="_blank" alt="link to subsequent node dependancie, node app or code code">escape-string-regexp</a></li>
-        <li><a href="https://bit.ly/2VjQKIe" target="_blank" alt="link to subsequent node dependancie, node app or code code">external-editor</a></li>
-        <li><a href="https://bit.ly/2NpF97G" target="_blank" alt="link to subsequent node dependancie, node app or code code">figures</a></li>
-        <li><a href="https://bit.ly/2SkXnIg" target="_blank" alt="link to subsequent node dependancie, node app or code code">has-flag</a></li>
-        <li><a href="https://bit.ly/2Ns8L49" target="_blank" alt="link to subsequent node dependancie, node app or code code">iconv-lite</a></li>
-        <li><a href="https://bit.ly/2Iym7wU" target="_blank" alt="link to subsequent node dependancie, node app or code code">inherits</a></li>
-        <li><a href="https://bit.ly/2BQXbLz" target="_blank" alt="link to subsequent node dependancie, node app or code code">inquire</a></li>
-        <li><a href="https://bit.ly/2XlFxZr" target="_blank" alt="link to subsequent node dependancie, node app or code code">is-fullwidth-code-point</a></li>
-        <li><a href="https://bit.ly/2Easbq2" target="_blank" alt="link to subsequent node dependancie, node app or code code">is-promise</a></li>
-        <li><a href="https://bit.ly/2Tdx4In" target="_blank" alt="link to subsequent node dependancie, node app or code code">isarray</a></li>
-        <li><a href="https://bit.ly/2SUKTfH" target="_blank" alt="link to subsequent node dependancie, node app or code code">lodash</a></li>
-        <li><a href="https://bit.ly/2H0Qee3" target="_blank" alt="link to subsequent node dependancie, node app or code code">mimic-fn</a></li>
-        <li><a href="https://bit.ly/2VjR5uu" target="_blank" alt="link to subsequent node dependancie, node app or code code">mute-stream</a></li>
-        <li><a href="https://bit.ly/2yMBvfz" target="_blank" alt="link to subsequent node dependancie, node app or code code">mysql</a></li>
-        <li><a href="https://bit.ly/2NphKDc" target="_blank" alt="link to subsequent node dependancie, node app or code code">onetime</a></li>
-        <li><a href="https://bit.ly/2GHkw6f" target="_blank" alt="link to subsequent node dependancie, node app or code code">os-tmpdir</a></li> *os-tmpdir has been depriciated but it still listed as a packet dependancy so it has been included
-        <li><a href="https://bit.ly/2NpMfZM" target="_blank" alt="link to subsequent node dependancie, node app or code code">process-nextick-args</a></li>
-        <li><a href="https://bit.ly/2VkiXia" target="_blank" alt="link to subsequent node dependancie, node app or code code">readable-stream</a></li>
-        <li><a href="https://bit.ly/2GHsTyJ" target="_blank" alt="link to subsequent node dependancie, node app or code code">restore-cursor</a></li>
-        <li><a href="https://bit.ly/2Iyoyzy" target="_blank" alt="link to subsequent node dependancie, node app or code code">run-async</a></li>
-        <li><a href="https://bit.ly/2IvRatd" target="_blank" alt="link to subsequent node dependancie, node app or code code">rxjs</a></li>
-        <li><a href="https://bit.ly/safe-buf" target="_blank" alt="link to subsequent node dependancie, node app or code code">safe-buffer</a></li>
-        <li><a href="https://bit.ly/2EtRlkK" target="_blank" alt="link to subsequent node dependancie, node app or code code">signal-exit</a></li>
-        <li><a href="https://bit.ly/2XipSu1" target="_blank" alt="link to subsequent node dependancie, node app or code code">sqlstring</a></li>
-        <li><a href="https://bit.ly/2NtvrAZ" target="_blank" alt="link to subsequent node dependancie, node app or code code">string-width</a></li>
-        <li><a href="https://bit.ly/2H0r1Az" target="_blank" alt="link to subsequent node dependancie, node app or code code">string_decoder</a></li>
-        <li><a href="https://bit.ly/2EuZt4z" target="_blank" alt="link to subsequent node dependancie, node app or code code">strip-ansi</a></li>
-        <li><a href="https://bit.ly/2ViR364" target="_blank" alt="link to subsequent node dependancie, node app or code code">supports-color</a></li>
-        <li><a href="https://bit.ly/2NsmWGm" target="_blank" alt="link to subsequent node dependancie, node app or code code">symbol-observable</a></li>
-        <li><a href="https://bit.ly/2tBY8mo" target="_blank" alt="link to subsequent node dependancie, node app or code code">through</a></li>
-        <li><a href="https://bit.ly/2tALS5B" target="_blank" alt="link to subsequent node dependancie, node app or code code">util-deprecate</a></li>
-        <li><a href="https://bit.ly/2NrS4pE" target="_blank" alt="link to subsequent node dependancie, node app or code code">wcwidth</a></li>
-    </ul>
+<li><a href="https://bit.ly/1LjG5AH" target="_blank" alt="link to subsequent node dependancie, node app or code code">Node</a></li>
+<ul>
+<li><a href="https://bit.ly/2ssAXN3" target="_blank" alt="link to subsequent node dependancie, node app or code code">dotenv</a></li>
+<li><a href="https://bit.ly/2kh3jU4" target="_blank" alt="link to subsequent node dependancie, node app or code code">Json</a></li>
+<li><a href="https://bit.ly/2H3dWq7" target="_blank" alt="link to subsequent node dependancie, node app or code code">ansi-escapes</a></li>
+<li><a href="https://bit.ly/2GJET30" target="_blank" alt="link to subsequent node dependancie, node app or code code">ansi-regex</a></li>
+<li><a href="https://bit.ly/2Ev2ems" target="_blank" alt="link to subsequent node dependancie, node app or code code">ansi-styles</a></li>
+<li><a href="https://bit.ly/2IyieIk" target="_blank" alt="link to subsequent node dependancie, node app or code code">bignumber.js</a></li>
+<li><a href="https://bit.ly/2NraruV" target="_blank" alt="link to subsequent node dependancie, node app or code code">chardet</a></li>
+<li><a href="https://bit.ly/2SpCV98" target="_blank" alt="link to subsequent node dependancie, node app or code code">cli-cursor</a></li>
+<li><a href="https://bit.ly/2EwfNSH" target="_blank" alt="link to subsequent node dependancie, node app or code code">clone</a></li>
+<li><a href="https://bit.ly/2tFvRuZ" target="_blank" alt="link to subsequent node dependancie, node app or code code">color-convert</a></li>
+<li><a href="https://bit.ly/2GHwRaO" target="_blank" alt="link to subsequent node dependancie, node app or code code">color-name</a></li>
+<li><a href="https://bit.ly/2U7GNx8" target="_blank" alt="link to subsequent node dependancie, node app or code code">console.table</a></li>
+<li><a href="https://bit.ly/2tyxECc" target="_blank" alt="link to subsequent node dependancie, node app or code code">core-util-is</a></li>
+<li><a href="https://bit.ly/2Vcsjfu" target="_blank" alt="link to subsequent node dependancie, node app or code code">defaults</a></li>
+<li><a href="https://bit.ly/2XlNiyE" target="_blank" alt="link to subsequent node dependancie, node app or code code">easy-table</a></li>
+<li><a href="https://bit.ly/2IBU67P" target="_blank" alt="link to subsequent node dependancie, node app or code code">escape-string-regexp</a></li>
+<li><a href="https://bit.ly/2VjQKIe" target="_blank" alt="link to subsequent node dependancie, node app or code code">external-editor</a></li>
+<li><a href="https://bit.ly/2NpF97G" target="_blank" alt="link to subsequent node dependancie, node app or code code">figures</a></li>
+<li><a href="https://bit.ly/2SkXnIg" target="_blank" alt="link to subsequent node dependancie, node app or code code">has-flag</a></li>
+<li><a href="https://bit.ly/2Ns8L49" target="_blank" alt="link to subsequent node dependancie, node app or code code">iconv-lite</a></li>
+<li><a href="https://bit.ly/2Iym7wU" target="_blank" alt="link to subsequent node dependancie, node app or code code">inherits</a></li>
+<li><a href="https://bit.ly/2BQXbLz" target="_blank" alt="link to subsequent node dependancie, node app or code code">inquire</a></li>
+<li><a href="https://bit.ly/2XlFxZr" target="_blank" alt="link to subsequent node dependancie, node app or code code">is-fullwidth-code-point</a></li>
+<li><a href="https://bit.ly/2Easbq2" target="_blank" alt="link to subsequent node dependancie, node app or code code">is-promise</a></li>
+<li><a href="https://bit.ly/2Tdx4In" target="_blank" alt="link to subsequent node dependancie, node app or code code">isarray</a></li>
+<li><a href="https://bit.ly/2SUKTfH" target="_blank" alt="link to subsequent node dependancie, node app or code code">lodash</a></li>
+<li><a href="https://bit.ly/2H0Qee3" target="_blank" alt="link to subsequent node dependancie, node app or code code">mimic-fn</a></li>
+<li><a href="https://bit.ly/2VjR5uu" target="_blank" alt="link to subsequent node dependancie, node app or code code">mute-stream</a></li>
+<li><a href="https://bit.ly/2yMBvfz" target="_blank" alt="link to subsequent node dependancie, node app or code code">mysql</a></li>
+<li><a href="https://bit.ly/2NphKDc" target="_blank" alt="link to subsequent node dependancie, node app or code code">onetime</a></li>
+<li><a href="https://bit.ly/2GHkw6f" target="_blank" alt="link to subsequent node dependancie, node app or code code">os-tmpdir</a></li> *os-tmpdir has been depriciated but it still listed as a packet dependancy so it has been included
+<li><a href="https://bit.ly/2NpMfZM" target="_blank" alt="link to subsequent node dependancie, node app or code code">process-nextick-args</a></li>
+<li><a href="https://bit.ly/2VkiXia" target="_blank" alt="link to subsequent node dependancie, node app or code code">readable-stream</a></li>
+<li><a href="https://bit.ly/2GHsTyJ" target="_blank" alt="link to subsequent node dependancie, node app or code code">restore-cursor</a></li>
+<li><a href="https://bit.ly/2Iyoyzy" target="_blank" alt="link to subsequent node dependancie, node app or code code">run-async</a></li>
+<li><a href="https://bit.ly/2IvRatd" target="_blank" alt="link to subsequent node dependancie, node app or code code">rxjs</a></li>
+<li><a href="https://bit.ly/safe-buf" target="_blank" alt="link to subsequent node dependancie, node app or code code">safe-buffer</a></li>
+<li><a href="https://bit.ly/2EtRlkK" target="_blank" alt="link to subsequent node dependancie, node app or code code">signal-exit</a></li>
+<li><a href="https://bit.ly/2XipSu1" target="_blank" alt="link to subsequent node dependancie, node app or code code">sqlstring</a></li>
+<li><a href="https://bit.ly/2NtvrAZ" target="_blank" alt="link to subsequent node dependancie, node app or code code">string-width</a></li>
+<li><a href="https://bit.ly/2H0r1Az" target="_blank" alt="link to subsequent node dependancie, node app or code code">string_decoder</a></li>
+<li><a href="https://bit.ly/2EuZt4z" target="_blank" alt="link to subsequent node dependancie, node app or code code">strip-ansi</a></li>
+<li><a href="https://bit.ly/2ViR364" target="_blank" alt="link to subsequent node dependancie, node app or code code">supports-color</a></li>
+<li><a href="https://bit.ly/2NsmWGm" target="_blank" alt="link to subsequent node dependancie, node app or code code">symbol-observable</a></li>
+<li><a href="https://bit.ly/2tBY8mo" target="_blank" alt="link to subsequent node dependancie, node app or code code">through</a></li>
+<li><a href="https://bit.ly/2tALS5B" target="_blank" alt="link to subsequent node dependancie, node app or code code">util-deprecate</a></li>
+<li><a href="https://bit.ly/2NrS4pE" target="_blank" alt="link to subsequent node dependancie, node app or code code">wcwidth</a></li>
+</ul>
 </ul>
 </ul>
 <br>
 <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;***The legnth of the list above should be noted that the vast majority of these node programs are strict dependancies of the primary ones used. It is good to understand that when you bring one npm packet into your root files or directly into your project it is called a packet for the reason above. There are many working parts to these programd and knowing that even though a few of these programs are one - two lines they provide a systaining component to allow all of the pther systems to work well and in a mannor we expect with the speed of the internet today.***</p>
- </details>
+</details>
 <br>
 <details>
 <summary><h1 id="mysql">MySQL</h1></summary>
@@ -120,12 +120,12 @@ declares we want to use this file to populate the file declared aboves content
 this is the master list of column titles and how they require their own specific formatting
 
 ```CREATE TABLE Products (
-    id INT NOT NULL AUTO_INCREMENT,
-    productName VARCHAR (45) NOT NULL,
-    departmentName VARCHAR (45) NOT NULL,
-    price DECIMAL (10,2) NOT NULL,
-    stockQuantity INT (10) NOT NULL,
-    PRIMARY KEY (ID)
+id INT NOT NULL AUTO_INCREMENT,
+productName VARCHAR (45) NOT NULL,
+departmentName VARCHAR (45) NOT NULL,
+price DECIMAL (10,2) NOT NULL,
+stockQuantity INT (10) NOT NULL,
+PRIMARY KEY (ID)
 );
 ```
 <p>
@@ -283,100 +283,91 @@ Where the code above is formatted in a way for e to bulk upload. The table below
 +++++++++++++++++++++++++++++++++++
 +++++++++++++++++++++++++++++++++++
 <details> <summary><h1 id="javascript">Javascript</h1></summary>
-
-
-
-```const mysql = require('mysql'); 
+    <br>
+<p align="justify">&nbsp;&nbsp;&nbsp;</p>
+```
+const mysql = require('mysql'); 
 const inquirer = require('inquirer');
 require('console.table');
 var keys = require("./keys");
 ```
-
-
-
-```var connection = mysql.createConnection({
-    host: "localhost",
-    port: 3306,
-    user: "root",
-    password: "###################",
-    database: "bamazon"
+<p align="justify">&nbsp;&nbsp;&nbsp;</p>
+```
+var connection = mysql.createConnection({
+host: "localhost",
+port: 3306,
+user: "root",
+password: "###################",
+database: "bamazon"
 });
 ```
-
-
-
-
-```connection.connect(function (err) {
-    if (err) throw err;
-    availableProducts();
+<p align="justify">&nbsp;&nbsp;&nbsp;</p>
+```
+connection.connect(function (err) {
+if (err) throw err;
+availableProducts();
 });
 ```
-
-
-
-
-```function availableProducts() {
-    console.log("\nBike Shop Merchandise: \n");
-    connection.query("SELECT id, productName, price FROM products", function (err, results) {
-        if (err) throw err;
-        console.table(results);
-        startShopping();
-    });
+<p align="justify">&nbsp;&nbsp;&nbsp;</p>
+```
+function availableProducts() {
+console.log("\nBike Shop Merchandise: \n");
+connection.query("SELECT id, productName, price FROM products", function (err, results) {
+if (err) throw err;
+console.table(results);
+startShopping();
+});
+}
+```
+<p align="justify">&nbsp;&nbsp;&nbsp;</p>
+```
+function startShopping() {
+inquirer.prompt([{
+name: "itemID",
+type: "input",
+message: "Please enter the ID Number for the Item you wish to buy: "
+},
+{
+name: "quantity",
+type: "input",
+message: "Please enter the # of items you wish to buy:"
+}
+]);
+```
+<p align="justify">&nbsp;&nbsp;&nbsp;</p>
+```.then(function (answer) {
+if (!(answer.itemID && answer.quantity)) {
+continueShopping();
+return;
 }
 ```
 
-
-
-
-
-```function startShopping() {
-    inquirer.prompt([{
-            name: "itemID",
-            type: "input",
-            message: "Please enter the ID Number for the Item you wish to buy: "
-        },
-        {
-            name: "quantity",
-            type: "input",
-            message: "Please enter the # of items you wish to buy:"
-        }
-
-
-    ])
-    ```
-   ```.then(function (answer) {
-        if (!(answer.itemID && answer.quantity)) {
-            continueShopping();
-            return;
-        }
-        ```
-
-        ```connection.query("SELECT * FROM products WHERE ?", {
-            id: answer.itemID
-        }, function (err, results) {
-            if (err) throw err;
-            if (results[0].stockQuantity >= answer.quantity) {
-                var itemsRemaining = results[0].stockQuantity - answer.quantity;
-                var purchaseTotal = answer.quantity * results[0].price;
-                connection.query
-                (`UPDATE products SET stockQuantity=${itemsRemaining} WHERE id=${answer.itemID}`,
+```connection.query("SELECT * FROM products WHERE ?", {
+id: answer.itemID
+}, function (err, results) {
+if (err) throw err;
+if (results[0].stockQuantity >= answer.quantity) {
+var itemsRemaining = results[0].stockQuantity - answer.quantity;
+var purchaseTotal = answer.quantity * results[0].price;
+connection.query
+(`UPDATE products SET stockQuantity=${itemsRemaining} WHERE id=${answer.itemID}`,
 ```
 
-                ```function (err, results) {
-                        if (err) throw err;
-                        console.log(`Your total is: ${purchaseTotal}`);
-                        continueShopping();
-                    });
-                    } 
-            ```
+```function (err, results) {
+if (err) throw err;
+console.log(`Your total is: ${purchaseTotal}`);
+continueShopping();
+});
+} 
+```
 
 
-            ```else {
-                console.log("Unfortunatly at this time we are out of stock for the item you requested. Please check back later or contact our sales department to find out when the item will be back in stock.");
-                continueShopping();
-            }
-        });
-    });
+```else {
+console.log("Unfortunatly at this time we are out of stock for the item you requested. Please check back later or contact our sales department to find out when the item will be back in stock.");
+continueShopping();
+}
+});
+});
 };
 ```
 
@@ -384,21 +375,21 @@ var keys = require("./keys");
 
 
 ```function continueShopping() {
-    inquirer.prompt([{
-        name: "tryAgain",
-        type: "confirm",
-        message: "Would you like to continue ordering? or process your bill and exit? "
-    }]).then(function (answer) {
-        if (answer.tryAgain) {
-            availableProducts();
-        } else {
-            connection.query("SELECT * FROM products", function (err, results) {
-                if (err) throw err;
-                console.table(results);
-            });
-            console.log("Your session has ended.  Thank you for shopping Bike Shop");
-        }
-    });
+inquirer.prompt([{
+name: "tryAgain",
+type: "confirm",
+message: "Would you like to continue ordering? or process your bill and exit? "
+}]).then(function (answer) {
+if (answer.tryAgain) {
+availableProducts();
+} else {
+connection.query("SELECT * FROM products", function (err, results) {
+if (err) throw err;
+console.table(results);
+});
+console.log("Your session has ended.  Thank you for shopping Bike Shop");
+}
+});
 };
 ```
 /* -----> ***** Many of the console.log files were formatted using ES6. This process used console.log just as it is in es5 but once within the parenthesies you will use backtick to contain all contents in the parenthesies where once you have completed your message copy you then use = and then you use $ with no space between the two symbols. Then you will want to use the curly brackets again with no symbols or spaces after the dollar sign. Inside the curly brackets is where the contents that need to be called should be placed. Once this info has been added you will close the console log with a ; at thee end as you normally would. Then move to the next line and continue your code.  ***** <----- J.SCHUTZ */
@@ -418,12 +409,12 @@ var keys = require("./keys");
 <details>
 <summary align="center">F O O T E R &nbsp; M E N U</summary>
 <div class=container align="center">
-    <span><a href=".....">App Desc. | </a></span>
-    <span><a href="#node">Node | </a></span>
-    <span><a href="#mysql">MySQL Code | </a></span>
-    <span><a href="#javascript">Javascript Code | </a></span>
-    <span><a href="#Demo">demo | </a></span>
-    <span><a href="https://github.com/rogueathletic/bamazon" download>Download | </a></span>
-    <span><a href="#set-up">Set up | </a></span>
-    <span><a href="mailto:jason@skunkworksweb.io">contact</a></span>
-    </details>
+<span><a href=".....">App Desc. | </a></span>
+<span><a href="#node">Node | </a></span>
+<span><a href="#mysql">MySQL Code | </a></span>
+<span><a href="#javascript">Javascript Code | </a></span>
+<span><a href="#Demo">demo | </a></span>
+<span><a href="https://github.com/rogueathletic/bamazon" download>Download | </a></span>
+<span><a href="#set-up">Set up | </a></span>
+<span><a href="mailto:jason@skunkworksweb.io">contact</a></span>
+</details>
