@@ -9,7 +9,7 @@ var connection = mysql.createConnection({
     host: "localhost",
     port: 3306,
     user: "root",
-    password: "hMw8EgmunkRDyTFMMb7]f96Nkei6Fsx",
+    password: "####################",
     database: "bamazon"
 });
 /* <----- NODE.js  initial error notification script. this is global, there are others that are function specific   J.SCHUTZ */
