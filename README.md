@@ -138,7 +138,8 @@ the numbers in parentheses is the most amount of characters that can be entered 
 Below you will see the info assigned to the corresponding table headers via .CSV formatting. This for most users will emulate the functions of Microsoft Excell or more appropriatly Microsoft Acess. This ebing that Excel is in its root value a table builder where access much like My Sql is a platform you can view, review and build tables but its true function is extrapulating data from the sheet and making functional charts and forms out of the information provided. to provide a refference of the code below, I have added a tabled form after it to show the symilarities of the two files in how they look.
 </p>
 
-```INSERT INTO Products (ID, productName, departmentName, price, stockQuantity)
+```&nbsp;
+INSERT INTO Products (ID, productName, departmentName, price, stockQuantity)
 VALUES ('001', 'Bianchi Specialisima', 'Bikes', 4999.00, 5);
 INSERT INTO Products (ID, productName, departmentName, price, stockQuantity)
 VALUES ('002', 'Kask Protone` | White', 'Helmet', 375.00, 8);
