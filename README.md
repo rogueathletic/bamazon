@@ -291,7 +291,7 @@ require('console.table');
 var keys = require("./keys");
 ```
 
-<p align="justify">&nbsp;&nbsp;&nbsp;Once you have installed your packet dependancies your next step will be to define your connection to MYSQL. *This connection WILL require you to have a root password as it is using your computer is a local server for the project. To obtain your root password for your review or attempt of this project you can find it <a href="https://apple.co/2Bu62kh">here</a> for mac. Once you have your password in hand yo will <b>NOT</b> want to store this within the project file for the app. This is considered incredibly sensitive information and should only be stored on your computer. To refrain from putting your code out in a vonerable state, you will want to create a <a href="https://bit.ly/2ssAXN3">DOTENV</a> file to store this information as well as a .gitignore to make sure when you set your commits it is not transfered to your repositories.</p>
+<p align="justify">&nbsp;&nbsp;&nbsp;Once you have installed your packet dependancies your next step will be to define your connection to MYSQL. <br>*This connection WILL require you to have a root password as it is using your computer is a local server for the project. To obtain your root password for your review or attempt of this project you can find it <a href="https://apple.co/2Bu62kh">here</a> for mac. Once you have your password in hand yo will <b>NOT</b> want to store this within the project file for the app. This is considered incredibly sensitive information and should only be stored on your computer. To refrain from putting your code out in a vonerable state, you will want to create a <a href="https://bit.ly/2ssAXN3">DOTENV</a> file to store this information as well as a .gitignore to make sure when you set your commits it is not transfered to your repositories.</p>
 
 ```var connection = mysql.createConnection({
     host: "localhost",
@@ -305,7 +305,8 @@ var keys = require("./keys");
 
 
 
-```connection.connect(function (err) {
+```&nbsp;
+connection.connect(function (err) {
     if (err) throw err;
     availableProducts();
 });
