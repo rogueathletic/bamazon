@@ -421,7 +421,7 @@ ok... So you have written your code. All of your dependancies notied above have 
 <ol start="6">
 <li>you will need to figure out the primary location of your MYSQL database located on your hard drive.</li>
 <li>now that you have located the file location you will also need to remark the location of your bamazon.sql file within your app. combine the two file type locations with the script below directly on your command line. replace the brackets as well as their content with the applicable absolute file locations. relative file locations will not work for htis process</li>
-<li>```[mysql location] -u root -p < [bamazon.sql file location]```</li>
+<li>[mysql location] -u root -p < [bamazon.sql file location]</li>
 <li>submit</li>
 <li>If the file path was done correctly you will be presented with a request to input your root password and not your UI password. The steps to obtain this are listed in the link on item line #4</li>
 <li>if you have set up your password correctly and typed it in correctly when you submit you will simply be returned to your primary command line script. this is hwo you know you have started your server. If the connection does not commit you wil receive an error notification. be mindful of the information in your error code as it will tell you what is wrong and sometimes how to repair the error.</li>
