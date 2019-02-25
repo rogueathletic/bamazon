@@ -8,65 +8,66 @@
 Utilizing a multitude of functions, formulas and coding languages, the project here was to create a fully functional and usable storefront form thats functionality is to be executed within terminal. 
 
 ##Programs/node apps used to complete this application
-<li>My SQL Workbench</li>,
-<li>HTML</li>,
-<li>CSS</li>,
-<li>Javascript</li>,
+<br>
+<li>My SQL Workbench</li>
+<li>HTML</li>
+<li>CSS</li>
+<li>Javascript</li>
 <li>Jquery</li>
-<ul>;
+<ul>
     <li>Node</li>
-    <ul>,
-        <li>dotenv</li>,
-        <li>Json</li>,
-        <li>ansi-escapes</li>,
-        <li>ansi-regex</li>,
-        <li>ansi-styles</li>,
-        <li>bignumber.js</li>,
-        <li>chardet</li>,
-        <li>cli-cursor</li>,
-        <li>clone</li>,
-        <li>color-convert</li>,
-        <li>color-name</li>,
-        <li>console.table</li>,
-        <li>core-util-is</li>,
-        <li>defaults</li>,
-        <li>easy-table</li>,
-        <li>escape-string-regexp</li>,
-        <li>external-editor</li>,
-        <li>figures</li>,
-        <li>has-flag</li>,
-        <li>iconv-lite</li>,
-        <li>inherits</li>,
-        <li>inquire </li>,
-        <li>is-fullwidth-code-point</li>,
-        <li>is-promise</li>,
-        <li>isarray</li>,
-        <li>lodash</li>,
-        <li>mimic-fn</li>,
-        <li>mute-stream</li>,
-        <li>mysql</li>,
-        <li>onetime</li>,
-        <li>os-tmpdir</li>,
-        <li>process-nextick-args</li>,
-        <li>readable-stream</li>,
-        <li>restore-cursor</li>,
-        <li>run-async</li>,
-        <li>rxjs</li>,
-        <li>safe-buffer</li>,
-        <li>signal-exit</li>,
-        <li>sqlstring</li>,
-        <li>string-width</li>,
-        <li>string_decoder</li>,
-        <li>strip-ansi</li>,
-        <li>supports-color</li>,
-        <li>symbol-observable</li>,
-        <li>through</li>,
-        <li>util-deprecate</li>,
+    <ul>
+        <li>dotenv</li>
+        <li>Json</li>
+        <li>ansi-escapes</li>
+        <li>ansi-regex</li>
+        <li>ansi-styles</li>
+        <li>bignumber.js</li>
+        <li>chardet</li>
+        <li>cli-cursor</li>
+        <li>clone</li>
+        <li>color-convert</li>
+        <li>color-name</li>
+        <li>console.table</li>
+        <li>core-util-is</li>
+        <li>defaults</li>
+        <li>easy-table</li>
+        <li>escape-string-regexp</li>
+        <li>external-editor</li>
+        <li>figures</li>
+        <li>has-flag</li>
+        <li>iconv-lite</li>
+        <li>inherits</li>
+        <li>inquire </li>
+        <li>is-fullwidth-code-point</li>
+        <li>is-promise</li>
+        <li>isarray</li>
+        <li>lodash</li>
+        <li>mimic-fn</li>
+        <li>mute-stream</li>
+        <li>mysql</li>
+        <li>onetime</li>
+        <li>os-tmpdir</li>
+        <li>process-nextick-args</li>
+        <li>readable-stream</li>
+        <li>restore-cursor</li>
+        <li>run-async</li>
+        <li>rxjs</li>
+        <li>safe-buffer</li>
+        <li>signal-exit</li>
+        <li>sqlstring</li>
+        <li>string-width</li>
+        <li>string_decoder</li>
+        <li>strip-ansi</li>
+        <li>supports-color</li>
+        <li>symbol-observable</li>
+        <li>through</li>
+        <li>util-deprecate</li>
         <li>wcwidth</li>
-    </ul>,
-</ul>,
+    </ul>
 </ul>
-    
+</ul>
+<br>    
 MySQL information to create DB and Table
 
 ```DROP DATABASE IF EXISTS bamazon;```
