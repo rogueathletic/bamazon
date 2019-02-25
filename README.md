@@ -357,7 +357,8 @@ var keys = require("./keys");
             if (results[0].stockQuantity >= answer.quantity) {
                 var itemsRemaining = results[0].stockQuantity - answer.quantity;
                 var purchaseTotal = answer.quantity * results[0].price;
-                connection.query(`UPDATE products SET stockQuantity=${itemsRemaining} WHERE id=${answer.itemID}`,
+                connection.query
+                (`UPDATE products SET stockQuantity=${itemsRemaining} WHERE id=${answer.itemID}`,
 ```
 
                 ```function (err, results) {
@@ -375,7 +376,7 @@ var keys = require("./keys");
             }
         });
     });
-}
+};
 ```
 
 
@@ -397,7 +398,7 @@ var keys = require("./keys");
             console.log("Your session has ended.  Thank you for shopping Bike Shop");
         }
     });
-}
+};
 ```
 /* -----> ***** Many of the console.log files were formatted using ES6. This process used console.log just as it is in es5 but once within the parenthesies you will use backtick to contain all contents in the parenthesies where once you have completed your message copy you then use = and then you use $ with no space between the two symbols. Then you will want to use the curly brackets again with no symbols or spaces after the dollar sign. Inside the curly brackets is where the contents that need to be called should be placed. Once this info has been added you will close the console log with a ; at thee end as you normally would. Then move to the next line and continue your code.  ***** <----- J.SCHUTZ */
 
