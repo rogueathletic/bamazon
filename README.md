@@ -292,3 +292,16 @@ Where the code above is formatted in a way for e to bulk upload. The table below
 
 </details>
 <br>
+<details>
+<summary align="center">F O O T E R &nbsp; M E N U</summary>
+<div class=container align="center">
+    <span><a href=".....">App Desc. | </a></span>
+    <span><a href=".....">Dependancies | </a></span>
+    <span><a href=".....">MySQL Code | </a></span>
+    <span><a href=".....">Javascript Code | </a></span>
+    <span><a href=".....">IRL use | </a></span>
+    <span><a href=".....">demo | </a></span>
+    <span><a href="https://github.com/rogueathletic/bamazon" download>Download | </a></span>
+    <span><a href=".....">Set up | </a></span>
+    <span><a href="mailto:jason@skunkworksweb.io">contact</a></span>
+    </details>
