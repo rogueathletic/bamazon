@@ -377,7 +377,7 @@ function startShopping() {
 }; <----- Closing tag for continueShopping() function that does not want to stay in the code container
 
 
-<p align="justify">&nbsp;&nbsp;&nbsp; At this point we have p[rovided the consumer with their final bill for the session. Or we notified them the product they want is no longer in stick and have provided the consumer with a value proposition to reachout to a sales member to seek future availability. This part of a sale is often over looked. Many consumers are more than willing to jump through virtual hoops to get what they want "IF" the avenue to do so is easy and inviting to execute the evolution. If it is not, the consumer will revert back to the web to try and source the product at the level of justified value proposition they originally intended to purchase at. Only if this is not found elsewhere they will return for the sale.</p>
+<p align="justify">&nbsp;&nbsp;&nbsp; Now we have reached the end of the existing transaction, the consumer has selected their goods, the quantities of their goods and have been provided with their final bill for said order. For the purposes of this exercise we will assume that the payment was tendered at the time of presenting the final total for available items in the sale. We will now prompt the consumer in terminal to continue back into the store to submit their purchase or to end the transaction. </p>
 
 ```&nbsp;
 function continueShopping() {
@@ -398,7 +398,7 @@ function continueShopping() {
     });
 }
 ```
-
+<p align="justify">&nbsp;&nbsp;&nbsp; Thank you for taking the time to review my code. Please feel free to utilize the contact link in the footer and header menus if you have any questions.</p>
 
 </details>
 <br>
