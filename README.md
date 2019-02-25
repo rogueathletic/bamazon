@@ -5,7 +5,63 @@
 
 <br><br><br>
 
-Utilizing a multitude of functions, formulas and coding languages, the project here was to create a fully functional and usable storefront form
+Utilizing a multitude of functions, formulas and coding languages, the project here was to create a fully functional and usable storefront form thats functionality is to be executed within terminal. 
+
+##Programs/node apps used to complete this application
+>My SQL Workbench
+>HTML
+>CSS
+>Javascript
+>Jquery
+>Node
+    >dotenv
+    >Json
+    >ansi-escapes
+    >ansi-regex
+    >ansi-styles
+    >bignumber.js
+    >chardet
+    >cli-cursor
+    >clone
+    >color-convert
+    >color-name
+    >console.table
+    >core-util-is
+    >defaults
+    >easy-table
+    >escape-string-regexp
+    >external-editor
+    >figures
+    >has-flag
+    >iconv-lite
+    >inherits
+    >inquire 
+    >is-fullwidth-code-point
+    >is-promise
+    >isarray
+    >lodash
+    >mimic-fn
+    >mute-stream
+    >mysql
+    >onetime
+    >os-tmpdir
+    >process-nextick-args
+    >readable-stream
+    >restore-cursor
+    >run-async
+    >rxjs
+    >safe-buffer
+    >signal-exit
+    >sqlstring
+    >string-width
+    >string_decoder
+    >strip-ansi
+    >supports-color
+    >symbol-observable
+    >through
+    >util-deprecate
+    >wcwidth
+    
 MySQL information to create DB and Table
 
 ```DROP DATABASE IF EXISTS bamazon;```
@@ -67,6 +123,7 @@ VALUES ('013', 'SRM PC8', 'Apparel', 120.00, 12);
 INSERT INTO Products (ID, productName, departmentName, price, stockQuantity)
 VALUES ('014', 'Specialized 1.5 knee warmers', 'Accessories', 20.00, 12);
 ```
+Where the code above is formatted in a way for e to bulk upload. The table below is an end users outout
 <table>
 <tbody>
 <tr>
@@ -176,3 +233,5 @@ VALUES ('014', 'Specialized 1.5 knee warmers', 'Accessories', 20.00, 12);
 </tr>
 </tbody>
 </table>
+<hr>
+<hr>
