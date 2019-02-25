@@ -326,7 +326,9 @@ function availableProducts() {
 }
 ```
 
-<p align="justify">&nbsp;&nbsp;&nbsp;At this point we have established a connection with the servier stored on MYSQL Workbench, we have inported the product csv providing product name, department, price and available quantities. Now we are tasked with prompting the consumer for the product they wish to purchase. This is done by providing us back a request for the designated id # of the product. Once this information has been received, we will want to verify the quantities of the product they will be purchassing. At the final stage of this description we will need to make sure; first, that the item and or quantity of their order matches the available invintory in the store. If it does not we will use one of the following functions to nitify them. If it is we will sell them the item for the dollar value designated and perminantly remove the item/items from invintory.</p>
+<p align="justify">&nbsp;&nbsp;&nbsp;At this point we have established a connection with the servier stored on MYSQL Workbench, we have inported the product csv providing product name, department, price and available quantities. Now we are tasked with prompting the consumer for the product they wish to purchase. This is done by providing us back a request for the designated id # of the product. Once this information has been received, we will want to verify the quantities of the product they will be purchassing. At the final stage of this description we will need to make sure; first, that the item and or quantity of their order matches the available invintory in the store. If it does not we will use one of the following functions to nitify them. If it is we will sell them the item for the dollar value designated and perminantly remove the item/items from invintory.
+<br><br>
+Then...</p>
 
 ```&nbsp;
 function startShopping() {
@@ -357,6 +359,11 @@ function startShopping() {
                 var purchaseTotal = answer.quantity * results[0].price;
                 connection.query(`UPDATE products SET stockQuantity=${itemsRemaining} WHERE id=${answer.itemID}`,
 ```
+
+<p align="justify">&nbsp;&nbsp;&nbsp;At this point we have established a connection with the servier stored on MYSQL Workbench, we have inported the product csv providing product name, department, price and available quantities. Now we are tasked with prompting the consumer for the product they wish to purchase. This is done by providing us back a request for the designated id # of the product. Once this information has been received, we will want to verify the quantities of the product they will be purchassing. At the final stage of this description we will need to make sure; first, that the item and or quantity of their order matches the available invintory in the store. If it does not we will use one of the following functions to nitify them. If it is we will sell them the item for the dollar value designated and perminantly remove the item/items from invintory.
+<br><br>
+Then...</p>
+
 
                 function (err, results) {
                         if (err) throw err;
