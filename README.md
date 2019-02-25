@@ -370,7 +370,7 @@ function startShopping() {
             }
         });
     });
-};```&nbsp;
+};
 
 
 ```&nbsp;
@@ -391,7 +391,7 @@ function continueShopping() {
         }
     });
 }
-```&nbsp;
+```
 
 
 </details>
