@@ -4,7 +4,12 @@
 </p>
 
 <br><br><br>
-
+<ul>
+<li>#Node</li>
+<li>dotenv       |  json          |  ansi-escapes  |  ansi-regx</li>
+<li>ansi-styles  |  bignumber.js  |  chardet       |  cli-cursor</li>
+<li>clone        |  color-convert |  color-name    |  console.table</li>
+</ul>
 Utilizing a multitude of functions, formulas and coding languages, the project here was to create a fully functional and usable storefront form thats functionality is to be executed within terminal. 
 
 ##Programs/node apps used to complete this application
