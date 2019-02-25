@@ -6,67 +6,69 @@
 <br><br><br>
 
 Utilizing a multitude of functions, formulas and coding languages, the project here was to create a fully functional and usable storefront form thats functionality is to be executed within terminal. 
-
-##Programs/node apps used to complete this application
+<hr>
+<h1>Programs/node apps used to complete this application</h1>
 <br>
-<li>My SQL Workbench</li>
-<li>HTML</li>
-<li>CSS</li>
-<li>Javascript</li>
-<li>Jquery</li>
+<li><a href="https://bit.ly/2GZTqXu"><h2>My SQL Workbench</h2></a></li>
+<li><a href="https://bit.ly/2EcEJNN"><h2>HTML</h2></a></li>
+<li><a href="https://bit.ly/2TcFS1k"><h2>CSS</h2></a></li>
+<li><a href="https://bit.ly/1cYzv8q"><h2>Javascript</h2></a></li>
+<li><a href="https://bit.ly/1AOYl0q"><h2>Jquery</h2></a></li>
+<li><a href="https://bit.ly/2wztb2m"><h2>bootstrap</h2></a></li>
 <ul>
-    <li>Node</li>
+    <li><a href="https://bit.ly/1LjG5AH"><h2>Node</h2></a></li>
     <ul>
-        <li>dotenv</li>
-        <li>Json</li>
-        <li>ansi-escapes</li>
-        <li>ansi-regex</li>
-        <li>ansi-styles</li>
-        <li>bignumber.js</li>
-        <li>chardet</li>
-        <li>cli-cursor</li>
-        <li>clone</li>
-        <li>color-convert</li>
-        <li>color-name</li>
-        <li>console.table</li>
-        <li>core-util-is</li>
-        <li>defaults</li>
-        <li>easy-table</li>
-        <li>escape-string-regexp</li>
-        <li>external-editor</li>
-        <li>figures</li>
-        <li>has-flag</li>
-        <li>iconv-lite</li>
-        <li>inherits</li>
-        <li>inquire </li>
-        <li>is-fullwidth-code-point</li>
-        <li>is-promise</li>
-        <li>isarray</li>
-        <li>lodash</li>
-        <li>mimic-fn</li>
-        <li>mute-stream</li>
-        <li>mysql</li>
-        <li>onetime</li>
-        <li>os-tmpdir</li>
-        <li>process-nextick-args</li>
-        <li>readable-stream</li>
-        <li>restore-cursor</li>
-        <li>run-async</li>
-        <li>rxjs</li>
-        <li>safe-buffer</li>
-        <li>signal-exit</li>
-        <li>sqlstring</li>
-        <li>string-width</li>
-        <li>string_decoder</li>
-        <li>strip-ansi</li>
-        <li>supports-color</li>
-        <li>symbol-observable</li>
-        <li>through</li>
-        <li>util-deprecate</li>
-        <li>wcwidth</li>
+        <li><a href="https://bit.ly/2ssAXN3">dotenv</a></li>
+        <li><a href="https://bit.ly/2kh3jU4">Json</a></li>
+        <li><a href="https://bit.ly/2H3dWq7">ansi-escapes</a></li>
+        <li><a href="https://bit.ly/2GJET30">ansi-regex</a></li>
+        <li><a href="https://bit.ly/2Ev2ems">ansi-styles</a></li>
+        <li><a href="https://bit.ly/2IyieIk">bignumber.js</a></li>
+        <li><a href="https://bit.ly/2NraruV">chardet</a></li>
+        <li><a href="https://bit.ly/2SpCV98">cli-cursor</a></li>
+        <li><a href="https://bit.ly/2EwfNSH">clone</a></li>
+        <li><a href="https://bit.ly/2tFvRuZ">color-convert</a></li>
+        <li><a href="https://bit.ly/2GHwRaO">color-name</a></li>
+        <li><a href="https://bit.ly/2U7GNx8">console.table</a></li>
+        <li><a href="https://bit.ly/2tyxECc">core-util-is</a></li>
+        <li><a href="https://bit.ly/2Vcsjfu">defaults</a></li>
+        <li><a href="https://bit.ly/2XlNiyE">easy-table</a></li>
+        <li><a href="https://bit.ly/2IBU67P">escape-string-regexp</a></li>
+        <li><a href="https://bit.ly/2VjQKIe">external-editor</a></li>
+        <li><a href="https://bit.ly/2NpF97G">figures</a></li>
+        <li><a href="https://bit.ly/2SkXnIg">has-flag</a></li>
+        <li><a href="https://bit.ly/2Ns8L49">iconv-lite</a></li>
+        <li><a href="https://bit.ly/2Iym7wU">inherits</a></li>
+        <li><a href="https://bit.ly/2BQXbLz">inquire</a></li>
+        <li><a href="https://bit.ly/2XlFxZr">is-fullwidth-code-point</a></li>
+        <li><a href="https://bit.ly/2Easbq2">is-promise</a></li>
+        <li><a href="https://bit.ly/2Tdx4In">isarray</a></li>
+        <li><a href="https://bit.ly/2SUKTfH">lodash</a></li>
+        <li><a href="https://bit.ly/2H0Qee3">mimic-fn</a></li>
+        <li><a href="https://bit.ly/2VjR5uu">mute-stream</a></li>
+        <li><a href="https://bit.ly/2yMBvfz">mysql</a></li>
+        <li><a href="https://bit.ly/2NphKDc">onetime</a></li>
+        <li><a href="https://bit.ly/2GHkw6f">os-tmpdir</a></li> *os-tmpdir has been depriciated but it still listed as a packet dependancy so it has been included
+        <li><a href="https://bit.ly/2NpMfZM">process-nextick-args</a></li>
+        <li><a href="https://bit.ly/2VkiXia">readable-stream</a></li>
+        <li><a href="https://bit.ly/2GHsTyJ">restore-cursor</a></li>
+        <li><a href="https://bit.ly/2Iyoyzy">run-async</a></li>
+        <li><a href="https://bit.ly/2IvRatd">rxjs</a></li>
+        <li><a href="http://bit.ly/safe-buf">safe-buffer</a></li>
+        <li><a href="http://bit.ly/2EtRlkK">signal-exit</a></li>
+        <li><a href="http://bit.ly/2XipSu1">sqlstring</a></li>
+        <li><a href="http://bit.ly/2NtvrAZ">string-width</a></li>
+        <li><a href="http://bit.ly/2H0r1Az">string_decoder</a></li>
+        <li><a href="http://bit.ly/2EuZt4z">strip-ansi</a></li>
+        <li><a href="http://bit.ly/2ViR364">supports-color</a></li>
+        <li><a href="http://bit.ly/2NsmWGm">symbol-observable</a></li>
+        <li><a href="http://bit.ly/2tBY8mo">through</a></li>
+        <li><a href="http://bit.ly/2tALS5B">util-deprecate</a></li>
+        <li><a href="http://bit.ly/2NrS4pE">wcwidth</a></li>
     </ul>
 </ul>
 </ul>
+<hr>
 <br>    
 MySQL information to create DB and Table
 
