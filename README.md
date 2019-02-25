@@ -323,11 +323,8 @@ function availableProducts() {
         console.table(results);
         startShopping();
     });
-}```
-
-
-
-
+}
+```
 
 ```&nbsp;
 function startShopping() {
