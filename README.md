@@ -24,7 +24,7 @@ Utilizing a multitude of functions, formulas and coding languages, the project h
 </p>
 <hr>
 <details>
-    <summary align="center"><h1>Node</h1></summary>
+    <summary><h1>Node</h1></summary>
 <hr>
 <h2 align="center">used to complete this application:<br>
         <a href="https://bit.ly/2IC3Sa1">Languages | </a>
@@ -96,7 +96,8 @@ Utilizing a multitude of functions, formulas and coding languages, the project h
  </details>
 <br>
 <hr>
-<h1 id="mysql" align="center">MySQL</h1>
+<details>
+<summary><h1 id="mysql">MySQL</h1></summary>
 <br>
 MySQL information to create DB and Table
 
@@ -271,5 +272,6 @@ Where the code above is formatted in a way for e to bulk upload. The table below
 </tr>
 </tbody>
 </table>
+</details>
 <hr>
-<hr>
+
