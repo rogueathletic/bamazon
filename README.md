@@ -19,7 +19,12 @@
 
 Utilizing a multitude of functions, formulas and coding languages, the project here was to create a fully functional and usable storefront form thats functionality is to be executed within terminal. 
 <hr>
-<h2 align="center">used to complete this application<br><a href="https://bit.ly/2IC3Sa1">Languages</a>, <a href="https://bit.ly/2U4VW2o" target="_blank">node apps</a> & <a href="https://bit.ly/2U7qnVs">node dependancies</a></h2>
+<h2 align="center">used to complete this application:<br>
+    <ul>
+        <li><a href="https://bit.ly/2IC3Sa1">Languages</a></li>
+        <li><a href="https://bit.ly/2U4VW2o" target="_blank">node apps</a></li>
+    <li><a href="https://bit.ly/2U7qnVs">node dependancies</a></h2></li>
+    </ul>
 <br>
 <ul>
 <li><a href="https://bit.ly/2GZTqXu" target="_blank" alt="link to subsequent node dependancie, node app or code code">My SQL Workbench</a></li>
