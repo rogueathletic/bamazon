@@ -145,7 +145,7 @@ the numbers in parentheses is the most amount of characters that can be entered 
 Below you will see the info assigned to the corresponding table headers via .CSV formatting. This for most users will emulate the functions of Microsoft Excell or more appropriatly Microsoft Acess. This ebing that Excel is in its root value a table builder where access much like My Sql is a platform you can view, review and build tables but its true function is extrapulating data from the sheet and making functional charts and forms out of the information provided. to provide a refference of the code below, I have added a tabled form after it to show the symilarities of the two files in how they look.
 </p>
 
-```csv
+```sql
 INSERT INTO Products (ID, productName, departmentName, price, stockQuantity)
 VALUES ('001', 'Bianchi Specialisima', 'Bikes', 4999.00, 5);
 INSERT INTO Products (ID, productName, departmentName, price, stockQuantity)
@@ -293,7 +293,7 @@ Where the code above is formatted in a way for e to bulk upload. The table below
 <p align="justify">&nbsp;&nbsp;&nbsp;The three Required statements below depect the three primary packets that I have required for this app to function. the only time full instilation is required is when the program is being created. From there; you, the end user can simply (if you already have node installed globally on your computer> Can simply run "npm install" from Terminal or Bash to bring all of the needed code structures to execute the program</p>
 
 
-```&nbsp;
+```js
 const mysql = require('mysql'); 
 const inquirer = require('inquirer');
 require('console.table');
@@ -302,7 +302,7 @@ var keys = require("./keys");
 
 <p align="justify">&nbsp;&nbsp;&nbsp;Once you have installed your packet dependancies your next step will be to define your connection to MYSQL. <br>*This connection WILL require you to have a root password as it is using your computer is a local server for the project. To obtain your root password for your review or attempt of this project you can find it <a href="https://apple.co/2Bu62kh">here</a> for mac. Once you have your password in hand you will <b>NOT</b> want to store this within the project file for the app. This is considered incredibly sensitive information and should only be stored on your computer. To refrain from putting your code out in a vonerable state, you will want to create a <a href="https://bit.ly/2ssAXN3">DOTENV</a> file to store this information as well as a .gitignore to make sure when you set your commits it is not transfered to your repositories.</p>
 
-```&nbsp;
+```js
 var connection = mysql.createConnection({
 host: "localhost",
 port: 3306,
@@ -313,7 +313,7 @@ database: "bamazon"
 ```
 <p align="justify">&nbsp;&nbsp;&nbsp;This is the point where connection is set to establish between your MYSQL server and your local computer. For the instance within this app both are located in the same space for practical application. You will note the if statement attached to the connection request. This will allert you via terminal there was an error establishing connectinn if there was an issue. If there was not an issue... The app will rin and the err notification will be disreagrded until it is needed if it is ever needed.</p>
 
-```&nbsp;
+```js
 connection.connect(function (err) {
 if (err) throw err;
 availableProducts();
@@ -321,7 +321,7 @@ availableProducts();
 ```
 <p align="justify">&nbsp;&nbsp;&nbsp;At this point we begin to import the Bike Shop invintory that is defined in the Schema located in MYSQL Workbency. For the purposes of this app, I have chosen to include both the csv content and the schema within a single file to provide easier readability for the program.</p>
 
-```&nbsp;
+```js
 function availableProducts() {
 console.log("\nBike Shop Merchandise: \n");
 connection.query("SELECT id, productName, price FROM products", function (err, results) {
@@ -336,7 +336,7 @@ startShopping();
 <br><br>
 Then...</p>
 
-```&nbsp;
+```js
 function startShopping() {
 inquirer.prompt([{
 name: "itemID",
@@ -385,7 +385,7 @@ continueShopping();
 
 <p align="justify">&nbsp;&nbsp;&nbsp; Now we have reached the end of the existing transaction, the consumer has selected their goods, the quantities of their goods and have been provided with their final bill for said order. For the purposes of this exercise we will assume that the payment was tendered at the time of presenting the final total for available items in the sale. We will now prompt the consumer in terminal to continue back into the store to submit their purchase or to end the transaction. </p>
 
-```&nbsp;
+```js
 function continueShopping() {
 inquirer.prompt([{
 name: "tryAgain",
