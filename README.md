@@ -273,7 +273,7 @@ Where the code above is formatted in a way for e to bulk upload. The table below
 <td style="text-align: center;">013</td>
 <td style="text-align: right;">SRM PC8</td>
 <td style="text-align: center;">Apparel</td>
-<td style="text-align: center;">120.0.</td>
+<td style="text-align: center;">120.00</td>
 <td style="text-align: center;">12</td>
 </tr>
 <tr>
