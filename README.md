@@ -147,33 +147,33 @@ Below you will see the info assigned to the corresponding table headers via .CSV
 
 ```sql
 INSERT INTO Products (ID, productName, departmentName, price, stockQuantity)
-              VALUES ('001', 'Bianchi Specialisima', 'Bikes',        4999.00, 5);
+      VALUES ('001', 'Bianchi Specialisima', 'Bikes', 4999.00, 5);
 INSERT INTO Products (ID, productName, departmentName, price, stockQuantity)
-              VALUES ('002', 'Kask Protone` | White','Helmet',       375.00, 8);
+      VALUES ('002', 'Kask Protone` | White','Helmet', 375.00, 8);
 INSERT INTO Products (ID, productName, departmentName, price, stockQuantity)
-              VALUES ('003', 'Fizik',                 'Socks',       20.00,   6);
+      VALUES ('003', 'Fizik', 'Socks', 20.00, 6);
 INSERT INTO Products (ID, productName, departmentName, price, stockQuantity)
-              VALUES ('004', 'Assos',                 'Apparel',     360.00, 10);
+      VALUES ('004', 'Assos', 'Apparel', 360.00, 10);
 INSERT INTO Products (ID, productName, departmentName, price, stockQuantity)
-              VALUES ('005', 'bibs',                  'Apparel',     532.26,  6);
+      VALUES ('005', 'bibs', 'Apparel', 532.26,  6);
 INSERT INTO Products (ID, productName, departmentName, price, stockQuantity)
-              VALUES ('006', 'Mavic Vest',            'Accessories', 135.00, 10);
+      VALUES ('006', 'Mavic Vest', 'Accessories', 135.00, 10);
 INSERT INTO Products (ID, productName, departmentName, price, stockQuantity)
-              VALUES ('007', 'Bont Vaypor + White', 'Shoes', 710.00, 7);
+      VALUES ('007', 'Bont Vaypor + White', 'Shoes', 710.00, 7);
 INSERT INTO Products (ID, productName, departmentName, price, stockQuantity)
-              VALUES ('008', 'Oakley Radar EV', 'Apparel', 225.00, 14);
+      VALUES ('008', 'Oakley Radar EV', 'Apparel', 225.00, 14);
 INSERT INTO Products (ID, productName, departmentName, price, stockQuantity)
-              VALUES ('009', 'WYN Sleeves ', 'Apparel', 120.00, 10);
+      VALUES ('009', 'WYN Sleeves ', 'Apparel', 120.00, 10);
 INSERT INTO Products (ID, productName, departmentName, price, stockQuantity)
-              VALUES ('010', 'Giro Gloves', 'Accessories', 25.00, 12);
+      VALUES ('010', 'Giro Gloves', 'Accessories', 25.00, 12);
 INSERT INTO Products (ID, productName, departmentName, price, stockQuantity)
-              VALUES ('011', 'Beats By Dre Headphones', 'Shoes', 130.00, 18);
+      VALUES ('011', 'Beats By Dre Headphones', 'Shoes', 130.00, 18);
 INSERT INTO Products (ID, productName, departmentName, price, stockQuantity)
-              VALUES ('012', 'Speed Sleeve', 'Apparel', 100.00, 15);
+      VALUES ('012', 'Speed Sleeve', 'Apparel', 100.00, 15);
 INSERT INTO Products (ID, productName, departmentName, price, stockQuantity)
-              VALUES ('013', 'SRM PC8', 'Apparel', 120.00, 12);
+      VALUES ('013', 'SRM PC8', 'Apparel', 120.00, 12);
 INSERT INTO Products (ID, productName, departmentName, price, stockQuantity)
-              VALUES ('014', 'Specialized 1.5 knee warmers', 'Accessories', 20.00, 12);
+      VALUES ('014', 'Specialized 1.5 knee warmers', 'Accessories', 20.00, 12);
 ```
 Where the code above is formatted in a way for e to bulk upload. The table below is an end users outout
 <table>
@@ -294,41 +294,41 @@ Where the code above is formatted in a way for e to bulk upload. The table below
 
 
 ```js
-const mysql = require('mysql'); 
-const inquirer = require('inquirer');
-require('console.table');
-var keys = require("./keys");
+  const mysql = require('mysql'); 
+  const inquirer = require('inquirer');
+  require('console.table');
+  var keys = require("./keys");
 ```
 
 <p align="justify">&nbsp;&nbsp;&nbsp;Once you have installed your packet dependancies your next step will be to define your connection to MYSQL. <br>*This connection WILL require you to have a root password as it is using your computer is a local server for the project. To obtain your root password for your review or attempt of this project you can find it <a href="https://apple.co/2Bu62kh">here</a> for mac. Once you have your password in hand you will <b>NOT</b> want to store this within the project file for the app. This is considered incredibly sensitive information and should only be stored on your computer. To refrain from putting your code out in a vonerable state, you will want to create a <a href="https://bit.ly/2ssAXN3">DOTENV</a> file to store this information as well as a .gitignore to make sure when you set your commits it is not transfered to your repositories.</p>
 
 ```js
-var connection = mysql.createConnection({
-host: "localhost",
-port: 3306,
-user: "root",
-password: "###################",
-database: "bamazon"
+  var connection = mysql.createConnection({
+    host: "localhost",
+    port: 3306,
+    user: "root",
+    password: "###################",
+    database: "bamazon"
 });
 ```
 <p align="justify">&nbsp;&nbsp;&nbsp;This is the point where connection is set to establish between your MYSQL server and your local computer. For the instance within this app both are located in the same space for practical application. You will note the if statement attached to the connection request. This will allert you via terminal there was an error establishing connectinn if there was an issue. If there was not an issue... The app will rin and the err notification will be disreagrded until it is needed if it is ever needed.</p>
 
 ```js
 connection.connect(function (err) {
-if (err) throw err;
-availableProducts();
+  if (err) throw err;
+    availableProducts();
 });
 ```
 <p align="justify">&nbsp;&nbsp;&nbsp;At this point we begin to import the Bike Shop invintory that is defined in the Schema located in MYSQL Workbency. For the purposes of this app, I have chosen to include both the csv content and the schema within a single file to provide easier readability for the program.</p>
 
 ```js
 function availableProducts() {
-console.log("\nBike Shop Merchandise: \n");
-connection.query("SELECT id, productName, price FROM products", function (err, results) {
-if (err) throw err;
-console.table(results);
-startShopping();
-});
+  console.log("\nBike Shop Merchandise: \n");
+    connection.query("SELECT id, productName, price FROM products", function (err, results) {
+      if (err) throw err;
+  console.table(results);
+    startShopping();
+  });
 }
 ```
 
@@ -338,48 +338,51 @@ Then...</p>
 
 ```js
 function startShopping() {
-inquirer.prompt([{
-name: "itemID",
-type: "input",
-message: "Please enter the ID Number for the Item you wish to buy: "
+  inquirer.prompt([{
+  name: "itemID",
+  type: "input",
+  message: "Please enter the ID Number for the Item you wish to buy: "
 },
 {
-name: "quantity",
-type: "input",
-message: "Please enter the # of items you wish to buy:"
+  name: "quantity",
+  type: "input",
+  message: "Please enter the # of items you wish to buy:"
 }
 
 
 ])
 .then(function (answer) {
-if (!(answer.itemID && answer.quantity)) {
-continueShopping();
-return;
+  if (!(answer.itemID && answer.quantity)) {
+  continueShopping();
+  return;
 }
 connection.query("SELECT * FROM products WHERE ?", {
-id: answer.itemID
-}, function (err, results) {
-if (err) throw err;
-if (results[0].stockQuantity >= answer.quantity) {
-var itemsRemaining = results[0].stockQuantity - answer.quantity;
-var purchaseTotal = answer.quantity * results[0].price;
-connection.query(`UPDATE products SET stockQuantity=${itemsRemaining} WHERE id=${answer.itemID}`,
+  id: answer.itemID
+  }, function (err, results) {
+    if (err) throw err;
+    if (results[0].stockQuantity >= answer.quantity) {
+    var itemsRemaining = results[0].stockQuantity - answer.quantity;
+    var purchaseTotal = answer.quantity * results[0].price;
+    connection.query(`UPDATE products SET stockQuantity=${itemsRemaining} WHERE id=${answer.itemID}`,
 ```
 
 <p align="justify">&nbsp;&nbsp;&nbsp; At this point we have p[rovided the consumer with their final bill for the session. Or we notified them the product they want is no longer in stick and have provided the consumer with a value proposition to reachout to a sales member to seek future availability. This part of a sale is often over looked. Many consumers are more than willing to jump through virtual hoops to get what they want "IF" the avenue to do so is easy and inviting to execute the evolution. If it is not, the consumer will revert back to the web to try and source the product at the level of justified value proposition they originally intended to purchase at. Only if this is not found elsewhere they will return for the sale.</p>
 
 
-function (err, results) {
-if (err) throw err;
-console.log(`Your total is: ${purchaseTotal}`);
-continueShopping();
-});
-}else {
-console.log("Unfortunatly at this time we are out of stock for the item you requested. Please check back later or contact our sales department to find out when the item will be back in stock.");
-continueShopping();
-}
-});
-});
+  function (err, results) {
+    if (err) throw err;
+      console.log(`Your total is: ${purchaseTotal}`);
+        continueShopping();
+      });
+      }else {
+        console.log("Unfortunatly at this time we are out of stock for the item you requested. 
+        Please check back later or contact our sales department to find out when the item will 
+        be back in stock.");
+        
+        continueShopping();
+      }
+    });
+  });
 }; <----- Closing tag for continueShopping() function that does not want to stay in the code container
 
 
@@ -387,21 +390,21 @@ continueShopping();
 
 ```js
 function continueShopping() {
-inquirer.prompt([{
-name: "tryAgain",
-type: "confirm",
-message: "Would you like to continue ordering? or process your bill and exit? "
-}]).then(function (answer) {
-if (answer.tryAgain) {
-availableProducts();
-} else {
-connection.query("SELECT * FROM products", function (err, results) {
-if (err) throw err;
-console.table(results);
-});
-console.log("Your session has ended.  Thank you for shopping Bike Shop");
-}
-});
+  inquirer.prompt([{
+  name: "tryAgain",
+  type: "confirm",
+  message: "Would you like to continue ordering? or process your bill and exit? "
+    }]).then(function (answer) {
+      if (answer.tryAgain) {
+      availableProducts();
+        } else {
+        connection.query("SELECT * FROM products", function (err, results) {
+    if (err) throw err;
+      console.table(results);
+    });
+    console.log("Your session has ended.  Thank you for shopping Bike Shop");
+    }
+  });
 }
 ```
 <p align="justify">&nbsp;&nbsp;&nbsp; Thank you for taking the time to review my code. Please feel free to utilize the contact link in the footer and header menus if you have any questions.</p>
