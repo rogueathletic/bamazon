@@ -412,7 +412,7 @@ function continueShopping() {
 </details>
 <br>
 <details> <summary><h1 id="Demo">Demo</h1></summary>
-<img src="https://i.imgur.com/zUWwNaY.gif" width="100%" height="auto" alt="Gif of application in use">
+<img src="https://i.imgur.com/4mbQbvw.gif" width="cover" height="auto" alt="Gif of application in use">
 </details>
 <br>
 <details> <summary><h1 id="set-up">Set Up</h1></summary>
