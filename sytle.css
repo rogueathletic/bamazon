@@ -2,7 +2,7 @@
     margin: 10px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
-}
+};
 xmp {
     box-shadow: 10px 10px 30px rgba(0,0,0,.6);
     border-bottom-right-radius: 30px;
@@ -13,7 +13,10 @@ xmp {
     overflow: scroll;
     hyphens: auto;
     text-align: inherit;
-}
+};
 img{
     max-width: 500px;
-}
+};
+a {
+  color: green;
+};
