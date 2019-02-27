@@ -19,4 +19,18 @@ img{
 };
 a {
   color: green;
-};
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: black;
+}
+
+a:visited {
+  color: #55aeae;
+}
